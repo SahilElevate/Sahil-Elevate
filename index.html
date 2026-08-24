@@ -4,67 +4,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Sahil Elevate class library — organised lessons for focused learning.">
-  <title>Free Education</title>
-  <link rel="icon" type="image/x-icon" href="sahil-elevate.jpg">
+  <title>Free Educations</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="sahil-elevate.jpg">
 </head>
 
+
+<!-- ========== Body ========== -->
+
+
 <body>
+  <div class="grid-bg"></div>
+
   <header class="topbar">
-    <div class="topbar-inner">
-      <a class="brand" href="index.html" aria-label="Sahil Elevate home">
-        <span class="logo"><img src="sahil-elevate.jpg" alt="Sahil Elevate"></span>
-        <span class="brand-copy">
-          <strong>Free Education</strong>
-          <small>The Perfect Education System</small>
-        </span>
-      </a>
+    <a class="brand" href="index.html">
+      <span class="logo">
+        <img src="sahil-elevate.jpg">
+      </span>
+      <span><b>Free Educations</b><small>The Perfect Education System</small></span>
+    </a>
 
-      <nav aria-label="Main navigation">
-        <a href="index.html">Home</a>
-        <a href="#folders" class="active">Classes</a>
-        <a href="#folders">Courses</a>
-        <a href="#player">Video</a>
-      </nav>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#" class="active">Classes</a>
+      <a href="#folders">Learning Folders</a>
+      <a href="#player">Video</a>
+    </nav>
 
-      <div class="header-actions">
-        <button id="themeBtn" class="icon-btn" type="button" aria-label="Toggle theme">☾</button>
-        <a href="index.html" class="home-btn">Home</a>
-      </div>
+    <div class="header-actions">
+      <button id="themeBtn" class="icon-btn">☾</button>
+      <a href="index.html" class="home-btn">Home ↗</a>
     </div>
   </header>
 
   <main>
     <section class="hero">
       <div class="hero-copy">
-        <p class="eyebrow">Free Education · CLASS LIBRARY</p>
-        <h1>Study at your own pace.</h1>
-        <p class="hero-text">
-          Find a course, choose a topic, and continue with the lesson you need.
-          Everything is arranged in a simple folder → subject → class structure.
+        <span class="eyebrow">Free Educations • CLASS LIBRARY</span>
+        <h1>Learn class by class.<br><em>Grow step by step.</em></h1>
+        <p>Choose a learning folder, select your subject, open a class and start learning through your YouTube lesson.
         </p>
-
-        <div class="hero-actions">
-          <a class="primary-btn" href="#folders">Browse classes</a>
-          <button class="secondary-btn" id="heroSearchBtn" type="button">Search lessons</button>
-        </div>
-
-        <div class="hero-stats" aria-label="Library statistics">
-          <div><strong id="folderStat">0</strong><span>Folders</span></div>
-          <div><strong id="subjectStat">0</strong><span>Subjects</span></div>
-          <div><strong id="classStat">0</strong><span>Classes</span></div>
+        <div class="hero-stats">
+          <div><b id="folderStat">0</b><small>Folders</small></div>
+          <div><b id="subjectStat">0</b><small>Subjects</small></div>
+          <div><b id="classStat">0</b><small>Classes</small></div>
         </div>
       </div>
 
-      <div class="hero-note">
-        <div class="note-label">HOW IT WORKS</div>
-        <ol>
-          <li><span>01</span> Pick a learning folder</li>
-          <li><span>02</span> Select your subject</li>
-          <li><span>03</span> Open a class and start learning</li>
-        </ol>
-        <div class="note-footer">Your classes stay organised in one place.</div>
+      <div class="hero-visual">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="hero-core">▶</div>
+        <span class="floating f1">Banking</span>
+        <span class="floating f2">SSC</span>
+        <span class="floating f3">Railway</span>
+        <span class="floating f4">CET</span>
       </div>
     </section>
 
@@ -72,17 +70,14 @@
       <div class="toolbar">
         <div id="breadcrumbs" class="breadcrumbs"></div>
         <div class="toolbar-actions">
-          <label class="search-box">
-            <span>⌕</span>
-            <input id="searchInput" type="search" placeholder="Search classes..." autocomplete="off">
-          </label>
-          <button id="backBtn" class="small-btn" type="button" disabled>← Back</button>
+          <input id="searchInput" type="search" placeholder="Search...">
+          <button id="backBtn" class="small-btn" disabled>← Back</button>
         </div>
       </div>
 
       <div class="section-heading">
         <div>
-          <p id="viewKicker" class="section-kicker">LEARNING FOLDERS</p>
+          <span id="viewKicker" class="section-kicker">LEARNING FOLDERS</span>
           <h2 id="viewTitle">Choose a learning folder</h2>
         </div>
         <span id="countLabel" class="count"></span>
@@ -92,19 +87,19 @@
 
       <div id="emptyState" class="empty" hidden>
         <div>⌕</div>
-        <h3>No matching lessons</h3>
-        <p>Try a different word or clear the search.</p>
+        <h3>No results found</h3>
+        <p>Try another search.</p>
       </div>
     </section>
 
     <section id="player" class="player-section" hidden>
       <div class="player-heading">
         <div>
-          <p class="section-kicker">NOW PLAYING</p>
+          <span class="section-kicker">NOW PLAYING</span>
           <h2 id="playerTitle">Class</h2>
           <p id="playerPath"></p>
         </div>
-        <button id="closePlayer" class="small-btn" type="button">Close video ×</button>
+        <button id="closePlayer" class="small-btn">Close Video ×</button>
       </div>
 
       <div class="player-grid">
@@ -112,17 +107,10 @@
           <iframe id="videoFrame" src="" title="Sahil Elevate Class"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
-          <div id="videoNotice" class="video-notice" hidden>
-            <strong>Video not added yet</strong>
-            <span>The class is listed, but its YouTube video ID has not been added.</span>
-          </div>
         </div>
 
         <aside class="lesson-panel">
-          <div class="panel-head">
-            <span class="panel-title">LESSONS</span>
-            <span id="queueCount"></span>
-          </div>
+          <span class="panel-title">CLASSES IN THIS SUBJECT</span>
           <div id="lessonQueue"></div>
         </aside>
       </div>
@@ -131,19 +119,15 @@
 
   <footer>
     <div class="footer-brand">
-      <span class="logo"><img src="sahil-elevate.jpg" alt="Sahil Elevate"></span>
-      <div>
-        <strong>Free Education</strong>
-        <small>Learn • Grow • Succeed</small>
-      </div>
+      <span class="logo">
+        <img src="sahil-elevate.jpg">
+      </span>
+      <div><b>Sahil Elevate</b><small>Learn • Grow • Succeed</small></div>
     </div>
-    <div class="footer-right">
-      <span>© 2026 Free Education</span>
-      <a href="index.html">Home</a>
-    </div>
+    <span>© 2026 Free Educations</span>
   </footer>
 
-  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="toast" class="toast"></div>
   <script src="script.js"></script>
 </body>
 

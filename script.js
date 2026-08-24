@@ -28,7 +28,7 @@ video: "DR36G7kdZno"
 
 
 
-// ========== 1st Batch Folder ==========
+// ============={ Perfections 9.0 2026 }=============
 
 
 
@@ -79,7 +79,8 @@ const library = [
 
 
 
-  // ========== 2nd Batch Folder ==========
+  // ============={ Science Foundation Batch 2026-2027 }=============
+
 
 
 
@@ -106,7 +107,7 @@ const library = [
   },
 
 
-  // ========== 3st Batch Folder ==========
+  // ============={ Safalta GK Pro 2026 }=============
 
 
   {
@@ -146,12 +147,12 @@ const library = [
   },
 
 
-  // ========== 4th Batch Folder ==========
+  // ============={ Gaint 2.0 }=============
 
   {
-    id: "computer-basics",
-    name: "Computer Basics",
-    icon: "PC",
+    id: "Gaint 2.0",
+    name: "Gaint 2.0",
+    icon: "Gaint 2.0",
     image: "gaint-2.0.png",
     description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
     subjects: [
@@ -167,7 +168,544 @@ const library = [
         ]
       }
     ]
-  }
+  },
+
+
+  // ============={ Be a Banking Master }=============
+
+  {
+    id: "Be a Banking master",
+    name: "Be a Banking master",
+    icon: "Be a Banking master",
+    image: "be-a-banking-master.png",
+    description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
+    subjects: [
+      {
+        id: "Be a Banking Master",
+        name: "Be a Banking Master",
+        icon: "Be a Banking Master",
+        image: "be-a-banking-master.png",
+        description: "Basic To Advance",
+        classes: [
+          { id: "Role of Priority Sector and MSMEs-01", name: "Class 01 — Role of Priority Sector and MSMEs", duration: "0hrs 0min 0sec", video: "" },
+
+          { id: "UPI, Aeps and Digital Banking-01", name: "Class 01 — UPI, Aeps and Digital Banking", duration: "0hrs 0min 0sec", video: "" },
+          { id: "UPI, Aeps and Digital Banking-02", name: "Class 02 — UPI, Aeps and Digital Banking", duration: "0hrs 0min 0sec", video: "" },
+
+          { id: "Prinicipal of Insurance-01", name: "Class 01 — Prinicipal of Insurance", duration: "0hrs 0min 0sec", video: "" },
+
+          { id: "RBI and its Roel in India Economy-01", name: "Class 01 — RBI and its Roel in India Economy", duration: "0hrs 0min 0sec", video: "" },
+
+          { id: "Types of Insurance in India-01", name: "Class 01 — Types of Insurance in India", duration: "0hrs 0min 0sec", video: "" },
+
+          { id: "Money Supplu and Inflation-01", name: "Class 01 — Money Supplu and Inflation", duration: "0hrs 0min 0sec", video: "" },
+
+          { id: "Non Banking Financial Companies-01", name: "Class 01 — Non Banking Financial Companies", duration: "0hrs 0min 0sec", video: "" },
+
+          { id: "NDS OM F&O Market and Derivative Markets-01", name: "Class 01 — NDS OM F&O Market and Derivative Markets", duration: "0hrs 0min 0sec", video: "" },
+
+          { id: "21 Government Schemes-01", name: "Class 01 — 21 Government Schemes", duration: "0hrs 0min 0sec", video: "" },
+          { id: "21 Government Schemes-02", name: "Class 02 — 21 Government Schemes", duration: "0hrs 0min 0sec", video: "" },
+
+          { id: "Lecture-01", name: "Class 01 — Lecture", duration: "0hrs 0min 0sec", video: "" },
+          { id: "Lecture-02", name: "Class 02 — Lecture", duration: "0hrs 0min 0sec", video: "" },
+          { id: "Lecture-03", name: "Class 03 — Lecture", duration: "0hrs 0min 0sec", video: "" },
+          { id: "Lecture-04", name: "Class 04 — Lecture", duration: "0hrs 0min 0sec", video: "" },
+          { id: "Lecture-05", name: "Class 05 — Lecture", duration: "0hrs 0min 0sec", video: "" },
+          { id: "Lecture-06", name: "Class 06 — Lecture", duration: "0hrs 0min 0sec", video: "" },
+          { id: "Lecture-07", name: "Class 07 — Lecture", duration: "0hrs 0min 0sec", video: "" },
+
+          { id: "Capital Markets , Primary Market and Stock Exchanges-01", name: "Class 01 — Capital Markets , Primary Market and Stock Exchanges", duration: "0hrs 0min 0sec", video: "" },
+          { id: "A Complete  Guide On Mutual Funds-01", name: "Class 01 — A Complete  Guide On Mutual Funds", duration: "0hrs 0min 0sec", video: "" },
+
+          { id: "NPS, Small Savings Schemes and pension Finds-01", name: "Class 01 — NPS, Small Savings Schemes and pension Finds", duration: "0hrs 0min 0sec", video: "" },
+
+          { id: "Capital Market Instruments-01", name: "Class 01 — Capital Market Instruments", duration: "0hrs 0min 0sec", video: "" },
+
+          { id: "NPA and SARFAESI Act-01", name: "Class 01 — NPA and SARFAESI Act", duration: "0hrs 0min 0sec", video: "" },
+
+          { id: "Digital Banking-01", name: "Class 01 — Digital Banking", duration: "0hrs 0min 0sec", video: "" },
+          { id: "Digital Banking-02", name: "Class 02 — Digital Banking", duration: "0hrs 0min 0sec", video: "" },
+          { id: "Digital Banking-03", name: "Class 03 — Digital Banking", duration: "0hrs 0min 0sec", video: "" },
+
+
+          { id: "Monetary Policy-01", name: "Class 01 — Monetary Policy", duration: "0hrs 0min 0sec", video: "" },
+          { id: "Monetary Policy-02", name: "Class 02 — Monetary Policy", duration: "0hrs 0min 0sec", video: "" },
+          { id: "Monetary Policy-03", name: "Class 03 — Monetary Policy", duration: "0hrs 0min 0sec", video: "" },
+
+          { id: "Basel Norms-01", name: "Class 01 — Basel Norms", duration: "0hrs 0min 0sec", video: "" },
+          { id: "Basel Norms-02", name: "Class 02 — Basel Norms", duration: "0hrs 0min 0sec", video: "" },
+
+          { id: "Insurance Companyies in India-01", name: "Class 01 — Insurance Companyies in India", duration: "0hrs 0min 0sec", video: "" },
+
+          { id: "History of Insurance in India-01", name: "Class 01 — History of Insurance in India", duration: "0hrs 0min 0sec", video: "" },
+
+          { id: "Factoring, Bill Discounting and TReDS-01", name: "Class 01 — Factoring, Bill Discounting and TReDS", duration: "0hrs 0min 0sec", video: "" },
+
+          { id: "Finicial Markets Money markets in India Treasury Bills and Commerical-01", name: "Class 01 — Finicial Markets Money markets in India Treasury Bills and Commerical", duration: "0hrs 0min 0sec", video: "" },
+        ]
+      },
+    ]
+  },
+
+
+
+  // ============={ English Recorded Batch }=============
+
+  {
+    id: "English Recorded",
+    name: "English Recorded",
+    icon: "English Recorded",
+    image: "english-recorded.png",
+    description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
+    subjects: [
+      {
+        id: "English Recorded",
+        name: "English Recorded",
+        icon: "English Recorded",
+        image: "english-recorded.png",
+        description: "Basic To Advanced",
+        classes: [
+          { id: "No Video-01", name: "Class 01 — No Video", duration: "0hrs 0min 0sec", video: "" },
+          { id: "No Video-02", name: "Class 02 — No Video", duration: "0hrs 0min 0sec", video: "" }
+        ]
+      }
+    ]
+  },
+
+
+
+
+  // ============={ Foundation Batch }=============
+
+  {
+    id: "Foundation Batch",
+    name: "Foundation Batch",
+    icon: "Foundation Batch",
+    image: "foundation-batch.png",
+    description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
+    subjects: [
+      {
+        id: "Foundation Batch",
+        name: "Foundation Batch",
+        icon: "Foundation Batch",
+        image: "foundation-batch.png",
+        description: "Basic To Advanced",
+        classes: [
+          { id: "No Video-01", name: "Class 01 — No Video", duration: "0hrs 0min 0sec", video: "" },
+          { id: "No Video-02", name: "Class 02 — No Video", duration: "0hrs 0min 0sec", video: "" }
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+  // ============={ Grammer Granth }=============
+
+  {
+    id: "Grammer Granth",
+    name: "Grammer Granth",
+    icon: "Grammer Granth",
+    image: "grammer-granth.png",
+    description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
+    subjects: [
+      {
+        id: "Grammer Granth",
+        name: "Grammer Granth",
+        icon: "Grammer Granth",
+        image: "grammer-granth.png",
+        description: "Basic To Advanced",
+        classes: [
+          { id: "No Video-01", name: "Class 01 — No Video", duration: "0hrs 0min 0sec", video: "" },
+          { id: "No Video-02", name: "Class 02 — No Video", duration: "0hrs 0min 0sec", video: "" }
+        ]
+      }
+    ]
+  },
+
+
+
+  // ============={ Made-Easy 2.0 }=============
+
+  {
+    id: "Made-Easy 2.0",
+    name: "Made-Easy 2.0",
+    icon: "Made-Easy 2.0",
+    image: "made-easy-2.0.png",
+    description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
+    subjects: [
+      {
+        id: "Made-Easy 2.0",
+        name: "Made-Easy 2.0",
+        icon: "Made-Easy 2.0",
+        image: "made-easy-2.0.png",
+        description: "Basic To Advanced",
+        classes: [
+          { id: "No Video-01", name: "Class 01 — No Video", duration: "0hrs 0min 0sec", video: "" },
+          { id: "No Video-02", name: "Class 02 — No Video", duration: "0hrs 0min 0sec", video: "" }
+        ]
+      }
+    ]
+  },
+
+
+
+
+  // ============={ Perfections 2.0 2026}=============
+
+  {
+    id: "Perfections 2.0 {2026}",
+    name: "Perfections 2.0 {2026}",
+    icon: "Perfections 2.0 {2026}",
+    image: "perfection 2.0 2026.png",
+    description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
+    subjects: [
+      {
+        id: "Perfections 2.0 {2026}",
+        name: "Perfections 2.0 {2026}",
+        icon: "Perfections 2.0 {2026}",
+        image: "perfection 2.0 2026.png",
+        description: "Basic To Advanced",
+        classes: [
+          { id: "No Video-01", name: "Class 01 — No Video", duration: "0hrs 0min 0sec", video: "" },
+          { id: "No Video-02", name: "Class 02 — No Video", duration: "0hrs 0min 0sec", video: "" }
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+  // ============={ Perfection 3.0 2026 }=============
+
+  {
+    id: "perfection 3.0 {2026}",
+    name: "perfection 3.0 {2026}",
+    icon: "perfection 3.0 {2026}",
+    image: "perfection 3.0 2026.png",
+    description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
+    subjects: [
+      {
+        id: "perfection 3.0 {2026}",
+        name: "perfection 3.0 {2026}",
+        icon: "perfection 3.0 {2026}",
+        image: "perfection 3.0 2026.png",
+        description: "Basic To Advanced",
+        classes: [
+          { id: "No Video-01", name: "Class 01 — No Video", duration: "0hrs 0min 0sec", video: "" },
+          { id: "No Video-02", name: "Class 02 — No Video", duration: "0hrs 0min 0sec", video: "" }
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+  // ============={ Perfection 4.0 2026 }=============
+
+  {
+    id: "Perfection 4.0 {2026}",
+    name: "Perfection 4.0 {2026}",
+    icon: "Perfection 4.0 {2026}",
+    image: "perfection 4.0 2026.png",
+    description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
+    subjects: [
+      {
+        id: "Perfection 4.0 {2026}",
+        name: "Perfection 4.0 {2026}",
+        icon: "Perfection 4.0 {2026}",
+        image: "perfection 4.0 2026.png",
+        description: "Basic To Advanced",
+        classes: [
+          { id: "No Video-01", name: "Class 01 — No Video", duration: "0hrs 0min 0sec", video: "" },
+          { id: "No Video-02", name: "Class 02 — No Video", duration: "0hrs 0min 0sec", video: "" }
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+  // ============={ Perfection 5.0 2025 }=============
+
+  {
+    id: "Perfection 5.0 {2025}",
+    name: "Perfection 5.0 {2025}",
+    icon: "Perfection 5.0 {2025}",
+    image: "perfection 5.0 2025.png",
+    description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
+    subjects: [
+      {
+        id: "Perfection 5.0 {2025}",
+        name: "Perfection 5.0 {2025}",
+        icon: "Perfection 5.0 {2025}",
+        image: "perfection 5.0 2025.png",
+        description: "Basic To Advanced",
+        classes: [
+          { id: "No Video-01", name: "Class 01 — No Video", duration: "0hrs 0min 0sec", video: "" },
+          { id: "No Video-02", name: "Class 02 — No Video", duration: "0hrs 0min 0sec", video: "" }
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+  // ============={ Perfection 5.0 2026 }=============
+
+  {
+    id: "Perfection 5.0 {2026}",
+    name: "Perfection 5.0 {2026}",
+    icon: "Perfection 5.0 {2026}",
+    image: "perfection 5.0 2026.png",
+    description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
+    subjects: [
+      {
+        id: "Perfection 5.0 {2026}",
+        name: "Perfection 5.0 {2026}",
+        icon: "Perfection 5.0 {2026}",
+        image: "perfection 5.0 2026.png",
+        description: "Basic To Advanced",
+        classes: [
+          { id: "No Video-01", name: "Class 01 — No Video", duration: "0hrs 0min 0sec", video: "" },
+          { id: "No Video-02", name: "Class 02 — No Video", duration: "0hrs 0min 0sec", video: "" }
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+  // ============={ Perfection 2026 }=============
+
+  {
+    id: "Perfection 2026",
+    name: "Perfection 2026",
+    icon: "Perfection 2026",
+    image: "perfection 2026.png",
+    description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
+    subjects: [
+      {
+        id: "Perfection 2026",
+        name: "Perfection 2026",
+        icon: "Perfection 2026",
+        image: "perfection 2026.png",
+        description: "Basic To Advanced",
+        classes: [
+          { id: "No Video-01", name: "Class 01 — No Video", duration: "0hrs 0min 0sec", video: "" },
+          { id: "No Video-02", name: "Class 02 — No Video", duration: "0hrs 0min 0sec", video: "" }
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+  // ============={ Railway Nirman Batch }=============
+
+  {
+    id: "Railway Nirman Batch",
+    name: "Railway Nirman Batch",
+    icon: "Railway Nirman Batch",
+    image: "railway nirman batch.png",
+    description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
+    subjects: [
+      {
+        id: "Railway Nirman Batch",
+        name: "Railway Nirman Batch",
+        icon: "Railway Nirman Batch",
+        image: "railway nirman batch.png",
+        description: "Basic To Advanced",
+        classes: [
+          { id: "No Video-01", name: "Class 01 — No Video", duration: "0hrs 0min 0sec", video: "" },
+          { id: "No Video-02", name: "Class 02 — No Video", duration: "0hrs 0min 0sec", video: "" }
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+  // ============={ Reasoning Master }=============
+
+  {
+    id: "Reasoning Master",
+    name: "Reasoning Master",
+    icon: "Reasoning Master",
+    image: "reasoning master.png",
+    description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
+    subjects: [
+      {
+        id: "Reasoning Master",
+        name: "Reasoning Master",
+        icon: "Reasoning Master",
+        image: "reasoning master.png",
+        description: "Basic To Advanced",
+        classes: [
+          { id: "No Video-01", name: "Class 01 — No Video", duration: "0hrs 0min 0sec", video: "" },
+          { id: "No Video-02", name: "Class 02 — No Video", duration: "0hrs 0min 0sec", video: "" }
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+
+  // ============={Reasoning Warrior Batch}=============
+
+  {
+    id: "Reasoning Warrior Batch",
+    name: "Reasoning Warrior Batch",
+    icon: "Reasoning Warrior Batch",
+    image: "reasoning warrior batch.png",
+    description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
+    subjects: [
+      {
+        id: "Reasoning Warrior Batch",
+        name: "Reasoning Warrior Batch",
+        icon: "Reasoning Warrior Batch",
+        image: "reasoning warrior batch.png",
+        description: "Basic To Advanced",
+        classes: [
+          { id: "No Video-01", name: "Class 01 — No Video", duration: "0hrs 0min 0sec", video: "" },
+          { id: "No Video-02", name: "Class 02 — No Video", duration: "0hrs 0min 0sec", video: "" }
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+
+  // ============={ Safalta Batch }=============
+
+  {
+    id: "Safalta Batch",
+    name: "Safalta Batch",
+    icon: "Safalta Batch",
+    image: "safalta batch.png",
+    description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
+    subjects: [
+      {
+        id: "Safalta Batch",
+        name: "Safalta Batch",
+        icon: "Safalta Batch",
+        image: "safalta batch.png",
+        description: "Basic To Advanced",
+        classes: [
+          { id: "No Video-01", name: "Class 01 — No Video", duration: "0hrs 0min 0sec", video: "" },
+          { id: "No Video-02", name: "Class 02 — No Video", duration: "0hrs 0min 0sec", video: "" }
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+
+  // ============={Science Foundation 2026-2027 }=============
+
+  {
+    id: "Science Foundation {2026-2027}",
+    name: "Science Foundation {2026-2027}",
+    icon: "Science Foundation {2026-2027}",
+    image: "science-foundation2026-2027.jpg",
+    description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
+    subjects: [
+      {
+        id: "Science Foundation {2026-2027}",
+        name: "Science Foundation {2026-2027}",
+        icon: "Science Foundation {2026-2027}",
+        image: "science-foundation2026-2027.jpg",
+        description: "Basic To Advanced",
+        classes: [
+          { id: "No Video-01", name: "Class 01 — No Video", duration: "0hrs 0min 0sec", video: "" },
+          { id: "No Video-02", name: "Class 02 — No Video", duration: "0hrs 0min 0sec", video: "" }
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+
+  // ============={ THE MATH HERO + UDAAN DI }=============
+
+  {
+    id: "THE MATH HERO + UDAAN DI",
+    name: "THE MATH HERO + UDAAN DI",
+    icon: "THE MATH HERO + UDAAN DI",
+    image: "the math hero + udaan di.png",
+    description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
+    subjects: [
+      {
+        id: "THE MATH HERO + UDAAN DI",
+        name: "THE MATH HERO + UDAAN DI",
+        icon: "THE MATH HERO + UDAAN DI",
+        image: "the math hero + udaan di.png",
+        description: "Basic To Advanced",
+        classes: [
+          { id: "No Video-01", name: "Class 01 — No Video", duration: "0hrs 0min 0sec", video: "" },
+          { id: "No Video-02", name: "Class 02 — No Video", duration: "0hrs 0min 0sec", video: "" }
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+
+  // ============={ Vocab Batch }=============
+
+  {
+    id: "Vocab Batch",
+    name: "Vocab Batch",
+    icon: "Vocab Batch",
+    image: "vocab batch.png",
+    description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
+    subjects: [
+      {
+        id: "Vocab Batch",
+        name: "Vocab Batch",
+        icon: "Vocab Batch",
+        image: "vocab batch.png",
+        description: "Basic To Advanced",
+        classes: [
+          { id: "No Video-01", name: "Class 01 — No Video", duration: "0hrs 0min 0sec", video: "" },
+          { id: "No Video-02", name: "Class 02 — No Video", duration: "0hrs 0min 0sec", video: "" }
+        ]
+      }
+    ]
+  },
+
 ];
 
 const cards = document.getElementById("cards");

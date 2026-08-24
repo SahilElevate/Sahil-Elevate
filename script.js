@@ -34,258 +34,62 @@ video: "DR36G7kdZno"
 
 const library = [
   {
-    id: "Champion 23.0",
-    name: "Champion 23.0",
+    id: "Perfection 9.0 {2026}",
+    name: "Perfection 9.0 {2026}",
     icon: "</>",
-    image: "champio-23.0.png",
+    image: "perfection 9.0 2026.png",
     description: "Basic To Advanced",
     subjects: [
       {
-        id: "Height & Distance",
-        name: "Height & Distance",
-        icon: "Height & Distance",
-        image: "champio-23.0.png",
+        id: "Introductions Sessions",
+        name: "Introductions Sessions",
+        icon: "Introductions Sessions",
+        image: "perfection 9.0 2026.png",
         description: "Basic To Advanced",
         classes: [
-          { id: "Height & Distance-01", name: "Class 01 — Height & Distance", duration: "48 min. 6 sec.", video: "Fl8TZ8UaAzE" },
-          { id: "Height & Distance-02", name: "Class 02 — Height & Distance", duration: "54 min. 35 sec.", video: "v8nF-KIrNTU" },
-          { id: "Height & Distance-03", name: "Class 03 — Height & Distance", duration: "49 min. 12 sec.", video: "b1axKloXsuU" },
-          { id: "Height & Distance-04", name: "Class 04 — Height & Distance", duration: "47 min. 32 sec.", video: "TCLbbybbGxo" },
-          { id: "Height & Distance-05", name: "Class 05 — Height & Distance", duration: "49 min. 41 sec.", video: "0Hrv5WLvFLw" }
-        ]
-      },
-
-
-      {
-        id: "Quadratic Equations",
-        name: "Quadratic Equations",
-        icon: "Quadratic Equations",
-        image: "champio-23.0.png",
-        description: "Basic To Advance",
-        classes: [
-          { id: "Quadratic Equations-01", name: "Class 01 — Quadratic Equations", duration: "1 hour 3 mint 23 second", video: "N2ccuqn9FPM" },
-          { id: "Quadratic Equations-02", name: "Class 02 — Quadratic Equations", duration: "1 hour 3 mint 37 second", video: "2u7MNvLlHpM" }
-        ]
-      },
-
-
-      {
-        id: "Algebra",
-        name: "Algebra",
-        icon: "Algebra",
-        image: "champio-23.0.png",
-        description: "Basic To Advance",
-        classes: [
-          { id: "Algebra-01", name: "Class 01 — Algebra", duration: "1 Hour 26 min 40 Second", video: "d1YZXLomlKQ" },
-          { id: "Algebra-02", name: "Class 02 — Algebra", duration: "1 Hour 04 min 23 Second", video: "1ZUuWjrnLlw" },
-          { id: "Algebra-03", name: "Class 03 — Algebra", duration: "0 Hour 58 min 00 Second", video: "8h8B92S5f44" },
-          { id: "Algebra-04", name: "Class 04 — Algebra", duration: "1 Hour 00 min 45 Second", video: "k2XAJisbvTE" },
-          { id: "Algebra-05", name: "Class 05 — Algebra", duration: "1 Hour 11 min 11 Second", video: "3Qv_yMs8rAU" }
-        ]
-      },
-
-
-      {
-        id: "Divisibility",
-        name: "Divisibility",
-        icon: "Divisibility",
-        image: "champio-23.0.png",
-        description: "Basic To Advance",
-        classes: [
-          { id: "Divisibility-01", name: "Class 01 — Divisibility", duration: "video timing", video: "i fram tag video" },
-          { id: "Divisibility-02", name: "Class 02 — Divisibility", duration: "video timing", video: "i fram tag video" },
-          { id: "Divisibility-03", name: "Class 03 — Divisibility", duration: "video timing", video: "i fram tag video" },
-          { id: "Divisibility-04", name: "Class 04 — Divisibility", duration: "video timing", video: "i fram tag video" },
-          { id: "Divisibility-05", name: "Class 05 — Divisibility", duration: "video timing", video: "i fram tag video" }
+          { id: "Introduction Sessions-01", name: "Class 01 — Introduction Sessions", duration: "1hrs 40min. 10sec.", video: "MMzMNbhHIoE" },
         ]
       },
 
       {
-        id: "Partnership",
-        name: "Partnership",
-        icon: "Partnership",
-        image: "champio-23.0.png",
-        description: "Basic To Advance",
+        id: "Perfections 9.0 Prelims",
+        name: "Perfections 9.0 Prelims",
+        icon: "Perfections 9.0 Prelims",
+        image: "perfection 9.0 2026.png",
+        description: "Basic To Advanced",
         classes: [
-          { id: "Partnership-01", name: "Class 01 — Partnership", duration: "video timing", video: "i fram tag video" },
-          { id: "Partnership-02", name: "Class 02 — Partnership", duration: "video timing", video: "i fram tag video" },
-          { id: "Partnership-03", name: "Class 03 — Partnership", duration: "video timing", video: "i fram tag video" },
-          { id: "Partnership-04", name: "Class 04 — Partnership", duration: "video timing", video: "i fram tag video" },
-          { id: "Partnership-05", name: "Class 05 — Partnership", duration: "video timing", video: "i fram tag video" },
-          { id: "Partnership-06", name: "Class 06 — Partnership", duration: "video timing", video: "i fram tag video" },
-          { id: "Partnership-07", name: "Class 07 — Partnership", duration: "video timing", video: "i fram tag video" }
+          { id: "Basic Concepts of Sentence Rearrangement/Parajumbles-01", name: "Class 01 — Basic Concepts of Sentence Rearrangement/Parajumbles", duration: "1hrs 33min. 54sec.", video: "rt_OsCUPTjs" },
+          { id: "Reading Comprehension & Skimming-02", name: "Class 02 — Reading Comprehension & Skimming", duration: "1hrs 00min. 13sec.", video: "Tqcs7Pcl0P0" },
+          { id: "Reading Comprehension & Skimming-03", name: "Class 03 — Reading Comprehension & Skimming", duration: "1hrs 4min. 27sec.", video: "L2hobJ8sbko" },
         ]
       },
 
       {
-        id: "AGE",
-        name: "AGE",
-        icon: "AGE",
-        image: "champio-23.0.png",
-        description: "Basic To Advance",
+        id: "Perfections 9.0 Mains",
+        name: "Perfections 9.0 Mains",
+        icon: "Perfections 9.0 Mains",
+        image: "perfection 9.0 2026.png",
+        description: "Basic To Advanced",
         classes: [
-          { id: "AGE-01", name: "Class 01 — AGE", duration: "video timing", video: "i fram tag video" },
-          { id: "AGE-02", name: "Class 02 — AGE", duration: "video timing", video: "i fram tag video" },
-          { id: "AGE-03", name: "Class 03 — AGE", duration: "video timing", video: "i fram tag video" }
+          { id: "No Video", name: "Class 01 — No Video", duration: "0hrs 0min. 0sec.", video: "" },
         ]
       },
 
       {
-        id: "Proporations",
-        name: "Proporations",
-        icon: "Proporations",
-        image: "champio-23.0.png",
-        description: "Basic To Advance",
+        id: "Grammer Granth",
+        name: "Grammer Granth",
+        icon: "Grammer Granth",
+        image: "perfection 9.0 2026.png",
+        description: "Basic To Advanced",
         classes: [
-          { id: "Proporations-01", name: "Class 01 — Proporations", duration: "video timing", video: "i fram tag video" },
-          { id: "Proporations-02", name: "Class 02 — Proporations", duration: "video timing", video: "i fram tag video" },
-          { id: "Proporations-03", name: "Class 03 — Proporations", duration: "video timing", video: "i fram tag video" }
-        ]
-      },
-
-      {
-        id: "Ratio",
-        name: "Ratio",
-        icon: "Ratio",
-        image: "champio-23.0.png",
-        description: "Basic To Advance",
-        classes: [
-          { id: "Proporations-01", name: "Class 01 — Proporations", duration: "video timing", video: "i fram tag video" },
-          { id: "Proporations-02", name: "Class 02 — Proporations", duration: "video timing", video: "i fram tag video" },
-          { id: "Proporations-03", name: "Class 03 — Proporations", duration: "video timing", video: "i fram tag video" },
-          { id: "Proporations-04", name: "Class 04 — Proporations", duration: "video timing", video: "i fram tag video" },
-          { id: "Proporations-05", name: "Class 05 — Proporations", duration: "video timing", video: "i fram tag video" },
-          { id: "Proporations-06", name: "Class 06 — Proporations", duration: "video timing", video: "i fram tag video" },
-          { id: "Proporations-07", name: "Class 07 — Proporations", duration: "video timing", video: "i fram tag video" },
-          { id: "Proporations-08", name: "Class 08 — Proporations", duration: "video timing", video: "i fram tag video" },
-          { id: "Proporations-09", name: "Class 09 — Proporations", duration: "video timing", video: "i fram tag video" },
-          { id: "Proporations-10", name: "Class 10 — Proporations", duration: "video timing", video: "i fram tag video" },
-          { id: "Proporations-11", name: "Class 11 — Proporations", duration: "video timing", video: "i fram tag video" },
-          { id: "Proporations-12", name: "Class 12 — Proporations", duration: "video timing", video: "i fram tag video" }
-        ]
-      },
-
-      {
-        id: "Piper and Cistern",
-        name: "Piper and Cistern",
-        icon: "Piper and Cistern",
-        image: "champio-23.0.png",
-        description: "Basic To Advance",
-        classes: [
-          { id: "Piper and Cistern-01", name: "Class 01 — Piper and Cistern", duration: "video timing", video: "i fram tag video" },
-          { id: "Piper and Cistern-02", name: "Class 02 — Piper and Cistern", duration: "video timing", video: "i fram tag video" },
-          { id: "Piper and Cistern-03", name: "Class 03 — Piper and Cistern", duration: "video timing", video: "i fram tag video" },
-          { id: "Piper and Cistern-04", name: "Class 04 — Piper and Cistern", duration: "video timing", video: "i fram tag video" },
-          { id: "Piper and Cistern-05", name: "Class 05 — Piper and Cistern", duration: "video timing", video: "i fram tag video" }
-        ]
-      },
-
-      {
-        id: "Work & Wages",
-        name: "Work & Wages",
-        icon: "Work & Wages",
-        image: "champio-23.0.png",
-        description: "Basic To Advance",
-        classes: [
-          { id: "Work & Wages-01", name: "Class 01 — Work & Wages", duration: "video timing", video: "i fram tag video" },
-          { id: "Work & Wages-02", name: "Class 02 — Work & Wages", duration: "video timing", video: "i fram tag video" }
-        ]
-      },
-
-      {
-        id: "Times & Work",
-        name: "Times & Work",
-        icon: "Times & Work",
-        image: "champio-23.0.png",
-        description: "Basic To Advance",
-        classes: [
-          { id: "Times & Work-01", name: "Class 01 — Times & Work", duration: "video timing", video: "i fram tag video" },
-          { id: "Times & Work-02", name: "Class 02 — Times & Work", duration: "video timing", video: "i fram tag video" },
-          { id: "Times & Work-03", name: "Class 03 — Times & Work", duration: "video timing", video: "i fram tag video" },
-          { id: "Times & Work-04", name: "Class 04 — Times & Work", duration: "video timing", video: "i fram tag video" },
-          { id: "Times & Work-05", name: "Class 05 — Times & Work", duration: "video timing", video: "i fram tag video" },
-          { id: "Times & Work-06", name: "Class 06 — Times & Work", duration: "video timing", video: "i fram tag video" },
-          { id: "Times & Work-07", name: "Class 07 — Times & Work", duration: "video timing", video: "i fram tag video" },
-          { id: "Times & Work-08", name: "Class 08 — Times & Work", duration: "video timing", video: "i fram tag video" },
-          { id: "Times & Work-09", name: "Class 09 — Times & Work", duration: "video timing", video: "i fram tag video" },
-          { id: "Times & Work-10", name: "Class 10 — Times & Work", duration: "video timing", video: "i fram tag video" },
-          { id: "Times & Work-11", name: "Class 11 — Times & Work", duration: "video timing", video: "i fram tag video" },
-          { id: "Times & Work-12", name: "Class 12 — Times & Work", duration: "video timing", video: "i fram tag video" },
-          { id: "Times & Work-12", name: "Class 13 — Times & Work", duration: "video timing", video: "i fram tag video" },
-          { id: "Times & Work-12", name: "Class 14 — Times & Work", duration: "video timing", video: "i fram tag video" }
-        ]
-      },
-
-      {
-        id: "SI {Installment}",
-        name: "SI {Installment}",
-        icon: "SI {Installment}",
-        image: "champio-23.0.png",
-        description: "Basic To Advance",
-        classes: [
-          { id: "SI {Installment}-01", name: "Class 01 — SI {Installment}", duration: "video timing", video: "i fram tag video" },
-          { id: "SI {Installment}-02", name: "Class 02 — SI {Installment}", duration: "video timing", video: "i fram tag video" },
-          { id: "SI {Installment}-03", name: "Class 03 — SI {Installment}", duration: "video timing", video: "i fram tag video" },
-          { id: "SI {Installment}-04", name: "Class 04 — SI {Installment}", duration: "video timing", video: "i fram tag video" }
-        ]
-      },
-
-      {
-        id: "Trigonometry",
-        name: "Trigonometry",
-        icon: "Trigonometry",
-        image: "champio-23.0.png",
-        description: "Basic To Advance",
-        classes: [
-          { id: "Trigonometry-01", name: "Class 01 — Trigonometry", duration: "video timing", video: "i fram tag video" },
-          { id: "Trigonometry-02", name: "Class 02 — Trigonometry", duration: "video timing", video: "i fram tag video" },
-          { id: "Trigonometry-03", name: "Class 03 — Trigonometry", duration: "video timing", video: "i fram tag video" },
-          { id: "Trigonometry-04", name: "Class 04 — Trigonometry", duration: "video timing", video: "i fram tag video" },
-          { id: "Trigonometry-05", name: "Class 05 — Trigonometry", duration: "video timing", video: "i fram tag video" },
-          { id: "Trigonometry-06", name: "Class 06 — Trigonometry", duration: "video timing", video: "i fram tag video" },
-          { id: "Trigonometry-07", name: "Class 07 — Trigonometry", duration: "video timing", video: "i fram tag video" },
-          { id: "Trigonometry-08", name: "Class 08 — Trigonometry", duration: "video timing", video: "i fram tag video" },
-          { id: "Trigonometry-09", name: "Class 09 — Trigonometry", duration: "video timing", video: "i fram tag video" },
-          { id: "Trigonometry-10", name: "Class 10 — Trigonometry", duration: "video timing", video: "i fram tag video" },
-          { id: "Trigonometry-11", name: "Class 11 — Trigonometry", duration: "video timing", video: "i fram tag video" },
-          { id: "Trigonometry-12", name: "Class 12 — Trigonometry", duration: "video timing", video: "i fram tag video" },
-          { id: "Trigonometry-13", name: "Class 13 — Trigonometry", duration: "video timing", video: "i fram tag video" },
-          { id: "Trigonometry-14", name: "Class 14 — Trigonometry", duration: "video timing", video: "i fram tag video" },
-          { id: "Trigonometry-15", name: "Class 15 — Trigonometry", duration: "video timing", video: "i fram tag video" },
-          { id: "Trigonometry-16", name: "Class 16 — Trigonometry", duration: "video timing", video: "i fram tag video" },
-          { id: "Trigonometry-17", name: "Class 17 — Trigonometry", duration: "video timing", video: "i fram tag video" },
-          { id: "Trigonometry-18", name: "Class 18 — Trigonometry", duration: "video timing", video: "i fram tag video" },
-          { id: "Trigonometry-19", name: "Class 19 — Trigonometry", duration: "video timing", video: "i fram tag video" },
-          { id: "Trigonometry-20", name: "Class 20 — Trigonometry", duration: "video timing", video: "i fram tag video" },
-          { id: "Trigonometry-21", name: "Class 21 — Trigonometry", duration: "video timing", video: "i fram tag video" },
-          { id: "Trigonometry-22", name: "Class 22 — Trigonometry", duration: "video timing", video: "i fram tag video" },
-          { id: "Trigonometry-23", name: "Class 23 — Trigonometry", duration: "video timing", video: "i fram tag video" }
-        ]
-      },
-
-      {
-        id: "Maxima Minima Trigonometry",
-        name: "Maxima Minima Trigonometry",
-        icon: "Maxima Minima Trigonometry",
-        image: "champio-23.0.png",
-        description: "Basic To Advance",
-        classes: [
-          { id: "Maxima Minima Trigonometry-01", name: "Class 01 — Maxima Minima Trigonometry", duration: "video timing", video: "i fram tag video" },
-          { id: "Maxima Minima Trigonometry-02", name: "Class 02 — Maxima Minima Trigonometry", duration: "video timing", video: "i fram tag video" }
-        ]
-      },
-
-      {
-        id: "Airthmetic Progress / Geometry Progress",
-        name: "Airthmetic Progress / Geometry Progress",
-        icon: "Airthmetic Progress / Geometry Progress",
-        image: "champio-23.0.png",
-        description: "Basic To Advance",
-        classes: [
-          { id: "Airthmetic Progress-01", name: "Class 01 — Airthmetic Progress", duration: "video timing", video: "i fram tag video" },
-          { id: "Airthmetic Progress-02", name: "Class 02 — Airthmetic Progress", duration: "video timing", video: "i fram tag video" },
-          { id: "Geometry Progress-01", name: "Class 01 — Geometry Progress", duration: "video timing", video: "i fram tag video" },
-          { id: "Geometry Progress-02", name: "Class 02 — Geometry Progress", duration: "video timing", video: "i fram tag video" }
+          { id: "Noun-01", name: "Class 01 — Noun", duration: "1hrs 10min. 58sec.", video: "NWeyror_FBU" },
+          { id: "Noun-02", name: "Class 02 — Noun", duration: "1hrs 12min. 16sec.", video: "CK6vftJAEfA" },
+          { id: "Noun-03", name: "Class 03 — Noun", duration: "1hrs 02min. 33sec.", video: "KnCuhc8TIcQ" },
+          { id: "Noun-04", name: "Class 04 — Noun", duration: "1hrs 12min. 14sec.", video: "WgJflxWVnKM" },
+          { id: "Pronoun-01", name: "Class 01 — Pronoun", duration: "1hrs 1min. 57sec.", video: "J98sl-J9O10" },
+          { id: "Pronoun-02", name: "Class 02 — Pronoun", duration: "1hrs 04min. 38sec.", video: "jBMfvlwKjog" },
+          { id: "Pronoun-03", name: "Class 03 — Pronoun", duration: "0hrs 46min. 26sec.", video: "IRimW2y_Uqo" },
+          { id: "Pronoun-04", name: "Class 04 — Pronoun", duration: "1hrs 14min. 56sec.", video: "YlJMHcw5GbU" },
         ]
       },
     ]

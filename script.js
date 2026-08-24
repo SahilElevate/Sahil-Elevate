@@ -557,7 +557,7 @@ const library = [
   },
 
 
-  // ========== 6th Batch Folder ==========
+  // ========== 7th Batch Folder ==========
 
 
   {
@@ -576,6 +576,31 @@ const library = [
         classes: [
           { id: "Made Easy 2.0-01", name: "Class 01 — Made Easy 2.0", duration: "Video timing", video: "" },
           { id: "Made Easy 2.0-02", name: "Class 02 — Made Easy 2.0", duration: "Video timing", video: "" }
+        ]
+      }
+    ]
+  },
+
+
+  // ========== 8th Batch Folder ==========
+
+
+  {
+    id: "Perfection 2.0 {2026}",
+    name: "Perfection 2.0 {2026}",
+    icon: "Perfection 2.0 {2026}",
+    image: "perfection 2.0 2026.png",
+    description: "Basic To Advance.",
+    subjects: [
+      {
+        id: "Perfection 2.0 {2026}",
+        name: "Perfection 2.0 {2026}",
+        icon: "Perfection 2.0 {2026}",
+        image: "perfection 2.0 2026.png",
+        description: "Basic To Advance",
+        classes: [
+          { id: "Perfection 2.0 {2026}-01", name: "Class 01 — Perfection 2.0 {2026}", duration: "Video timing", video: "" },
+          { id: "Perfection 2.0 {2026}-02", name: "Class 02 — Perfection 2.0 {2026}", duration: "Video timing", video: "" }
         ]
       }
     ]

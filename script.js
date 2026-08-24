@@ -38,7 +38,7 @@ const library = [
     name: "Perfection 9.0 {2026}",
     icon: "</>",
     image: "perfection 9.0 2026.png",
-    description: "Basic To Advanced",
+    description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
     subjects: [
       {
         id: "Introductions Sessions",
@@ -74,24 +74,6 @@ const library = [
           { id: "No Video", name: "Class 01 — No Video", duration: "0hrs 0min. 0sec.", video: "" },
         ]
       },
-
-      {
-        id: "Grammer Granth",
-        name: "Grammer Granth",
-        icon: "Grammer Granth",
-        image: "perfection 9.0 2026.png",
-        description: "Basic To Advanced",
-        classes: [
-          { id: "Noun-01", name: "Class 01 — Noun", duration: "1hrs 10min. 58sec.", video: "NWeyror_FBU" },
-          { id: "Noun-02", name: "Class 02 — Noun", duration: "1hrs 12min. 16sec.", video: "CK6vftJAEfA" },
-          { id: "Noun-03", name: "Class 03 — Noun", duration: "1hrs 02min. 33sec.", video: "KnCuhc8TIcQ" },
-          { id: "Noun-04", name: "Class 04 — Noun", duration: "1hrs 12min. 14sec.", video: "WgJflxWVnKM" },
-          { id: "Pronoun-01", name: "Class 01 — Pronoun", duration: "1hrs 1min. 57sec.", video: "J98sl-J9O10" },
-          { id: "Pronoun-02", name: "Class 02 — Pronoun", duration: "1hrs 04min. 38sec.", video: "jBMfvlwKjog" },
-          { id: "Pronoun-03", name: "Class 03 — Pronoun", duration: "0hrs 46min. 26sec.", video: "IRimW2y_Uqo" },
-          { id: "Pronoun-04", name: "Class 04 — Pronoun", duration: "1hrs 14min. 56sec.", video: "YlJMHcw5GbU" },
-        ]
-      },
     ]
   },
 
@@ -102,11 +84,11 @@ const library = [
 
 
   {
-    id: "c-cpp",
-    name: "C / C++",
-    icon: "C++",
-    image: "assets/cpp.svg",
-    description: "Programming logic, C++ fundamentals and practice.",
+    id: "Science Foundations Batch {2026-2027}",
+    name: "Science Foundations Batch {2026-2027}",
+    icon: "Science Foundations Batch {2026-2027}",
+    image: "science-foundation2026-2027.jpg",
+    description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
     subjects: [
       {
         id: "cpp-basics",
@@ -120,47 +102,58 @@ const library = [
           { id: "cpp-03", name: "Class 03 — Operators", duration: "25 min", video: "DR36G7kdZno" }
         ]
       },
+    ]
+  },
+
+
+  // ========== 3st Batch Folder ==========
+
+
+  {
+    id: "Safala GK Pro {2026}",
+    name: "Safala GK Pro {2026}",
+    icon: "Safala GK Pro {2026}",
+    image: "safalta-gk-pro.png",
+    description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
+    subjects: [
       {
-        id: "cpp-loops",
-        name: "Loops & Logic",
-        icon: "01",
-        image: "assets/subjects/loops.svg",
-        description: "Loops, conditions and problem solving.",
+        id: "Orientaions Class",
+        name: "Orientaions Class",
+        icon: "Orientaions Class",
+        image: "safalta-gk-pro.png",
+        description: "Variables, input, conditions and loops.",
         classes: [
-          { id: "loop-01", name: "Class 01 — if / else", duration: "24 min", video: "DR36G7kdZno" },
-          { id: "loop-02", name: "Class 02 — for Loop", duration: "26 min", video: "DR36G7kdZno" }
+          { id: "Orientations Class-01", name: "Class 01 — Orientations Class", duration: "0hrs 24min 25sec", video: "MYp-4eL4zUs" }
+        ]
+      },
+
+      {
+        id: "Current Affairs",
+        name: "Current Affairs",
+        icon: "Current Affairs",
+        image: "safalta-gk-pro.png",
+        description: "Variables, input, conditions and loops.",
+        classes: [
+          { id: "L1 National Curent Affair-01", name: "Class 01 — L1 National Curent Affair", duration: "1hrs 2min 20sec", video: "8N4CnTTHxzo" },
+          { id: "L2 National Curent Affair-02", name: "Class 02 — L2 National Curent Affair", duration: "1hrs 05min 22sec", video: "IC9UV_M1ETo" },
+          { id: "L3 National Curent Affair-03", name: "Class 03 — L3 National Curent Affair", duration: "0hrs 54min 48sec", video: "AqAzs93aDgQ" },
+          { id: "L4 National Curent Affair-04", name: "Class 04 — L4 National Curent Affair", duration: "0hrs 51min 48sec", video: "glm7jLOM-4k" },
+          { id: "L5 National Curent Affair-05", name: "Class 05 — L5 National Curent Affair", duration: "1hrs 2min 13sec", video: "464T7vv_z2Q" }
+
         ]
       }
     ]
   },
 
-  {
-    id: "python",
-    name: "Python",
-    icon: "Py",
-    image: "assets/python.svg",
-    description: "Learn Python with simple practical examples.",
-    subjects: [
-      {
-        id: "python-basics",
-        name: "Python Basics",
-        icon: "Py",
-        image: "assets/subjects/python-basics.svg",
-        description: "Variables, input, conditions and loops.",
-        classes: [
-          { id: "py-01", name: "Class 01 — Python Introduction", duration: "18 min", video: "DR36G7kdZno" },
-          { id: "py-02", name: "Class 02 — Variables & Input", duration: "21 min", video: "DR36G7kdZno" }
-        ]
-      }
-    ]
-  },
+
+  // ========== 4th Batch Folder ==========
 
   {
     id: "computer-basics",
     name: "Computer Basics",
     icon: "PC",
-    image: "assets/computer.svg",
-    description: "Computer, internet and essential digital skills.",
+    image: "gaint-2.0.png",
+    description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
     subjects: [
       {
         id: "computer-fundamentals",

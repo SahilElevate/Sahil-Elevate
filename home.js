@@ -513,33 +513,6 @@ const library = [
 
 
 
-  // ============={ Railway Nirman Batch }=============
-
-  {
-    id: "Railway Nirman Batch",
-    name: "Railway Nirman Batch",
-    icon: "Railway Nirman Batch",
-    image: "railway nirman batch.png",
-    description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
-    subjects: [
-      {
-        id: "Railway Nirman Batch",
-        name: "Railway Nirman Batch",
-        icon: "Railway Nirman Batch",
-        image: "railway nirman batch.png",
-        description: "Basic To Advanced",
-        classes: [
-          { id: "No Video-01", name: "Class 01 — No Video", duration: "0hrs 0min 0sec", video: "" },
-          { id: "No Video-02", name: "Class 02 — No Video", duration: "0hrs 0min 0sec", video: "" }
-        ]
-      }
-    ]
-  },
-
-
-
-
-
   // ============={ Reasoning Master }=============
 
   {
@@ -610,34 +583,6 @@ const library = [
         name: "Safalta Batch",
         icon: "Safalta Batch",
         image: "safalta batch.png",
-        description: "Basic To Advanced",
-        classes: [
-          { id: "No Video-01", name: "Class 01 — No Video", duration: "0hrs 0min 0sec", video: "" },
-          { id: "No Video-02", name: "Class 02 — No Video", duration: "0hrs 0min 0sec", video: "" }
-        ]
-      }
-    ]
-  },
-
-
-
-
-
-
-  // ============={Science Foundation 2026-2027 }=============
-
-  {
-    id: "Science Foundation {2026-2027}",
-    name: "Science Foundation {2026-2027}",
-    icon: "Science Foundation {2026-2027}",
-    image: "science-foundation2026-2027.jpg",
-    description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
-    subjects: [
-      {
-        id: "Science Foundation {2026-2027}",
-        name: "Science Foundation {2026-2027}",
-        icon: "Science Foundation {2026-2027}",
-        image: "science-foundation2026-2027.jpg",
         description: "Basic To Advanced",
         classes: [
           { id: "No Video-01", name: "Class 01 — No Video", duration: "0hrs 0min 0sec", video: "" },

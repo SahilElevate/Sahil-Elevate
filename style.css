@@ -184,3 +184,7 @@ body::before {
     transform: scale(1.02);
     background: var(--lamp-shade);
 }
+
+
+/* batch complete or processing */
+

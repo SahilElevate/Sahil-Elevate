@@ -38,6 +38,7 @@ const library = [
     name: "Perfection 9.0 {2026}",
     icon: "</>",
     image: "perfection 9.0 2026.png",
+    status: "completed",
     description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
     subjects: [
       {
@@ -87,6 +88,7 @@ const library = [
     name: "Safala GK Pro {2026}",
     icon: "Safala GK Pro {2026}",
     image: "safalta-gk-pro.png",
+    status: "completed",
     description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
     subjects: [
       {
@@ -126,6 +128,7 @@ const library = [
     name: "Gaint 2.0",
     icon: "Gaint 2.0",
     image: "gaint-2.0.png",
+    status: "completed",
     description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
     subjects: [
       {
@@ -175,6 +178,7 @@ const library = [
     name: "Be a Banking master",
     icon: "Be a Banking master",
     image: "be-a-banking-master.png",
+    status: "completed",
     description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
     subjects: [
       {
@@ -254,6 +258,7 @@ const library = [
     name: "English Recorded",
     icon: "English Recorded",
     image: "english-recorded.png",
+    status: "progress",
     description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
     subjects: [
       {
@@ -280,6 +285,7 @@ const library = [
     name: "Foundation Batch",
     icon: "Foundation Batch",
     image: "foundation-batch.png",
+    status: "progress",
     description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
     subjects: [
       {
@@ -307,6 +313,7 @@ const library = [
     name: "Grammer Granth",
     icon: "Grammer Granth",
     image: "grammer-granth.png",
+    status: "progress",
     description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
     subjects: [
       {
@@ -332,6 +339,7 @@ const library = [
     name: "Made-Easy 2.0",
     icon: "Made-Easy 2.0",
     image: "made-easy-2.0.png",
+    status: "progress",
     description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
     subjects: [
       {
@@ -358,6 +366,7 @@ const library = [
     name: "Perfections 2.0 {2026}",
     icon: "Perfections 2.0 {2026}",
     image: "perfection 2.0 2026.png",
+    status: "progress",
     description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
     subjects: [
       {
@@ -385,6 +394,7 @@ const library = [
     name: "perfection 3.0 {2026}",
     icon: "perfection 3.0 {2026}",
     image: "perfection 3.0 2026.png",
+    status: "progress",
     description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
     subjects: [
       {
@@ -412,6 +422,7 @@ const library = [
     name: "Perfection 4.0 {2026}",
     icon: "Perfection 4.0 {2026}",
     image: "perfection 4.0 2026.png",
+    status: "progress",
     description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
     subjects: [
       {
@@ -439,6 +450,7 @@ const library = [
     name: "Perfection 5.0 {2025}",
     icon: "Perfection 5.0 {2025}",
     image: "perfection 5.0 2025.png",
+    status: "progress",
     description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
     subjects: [
       {
@@ -466,6 +478,7 @@ const library = [
     name: "Perfection 5.0 {2026}",
     icon: "Perfection 5.0 {2026}",
     image: "perfection 5.0 2026.png",
+    status: "progress",
     description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
     subjects: [
       {
@@ -493,6 +506,7 @@ const library = [
     name: "Perfection 2026",
     icon: "Perfection 2026",
     image: "perfection 2026.png",
+    status: "progress",
     description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
     subjects: [
       {
@@ -520,6 +534,7 @@ const library = [
     name: "Reasoning Master",
     icon: "Reasoning Master",
     image: "reasoning master.png",
+    status: "progress",
     description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
     subjects: [
       {
@@ -548,6 +563,7 @@ const library = [
     name: "Reasoning Warrior Batch",
     icon: "Reasoning Warrior Batch",
     image: "reasoning warrior batch.png",
+    status: "progress",
     description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
     subjects: [
       {
@@ -576,6 +592,7 @@ const library = [
     name: "Safalta Batch",
     icon: "Safalta Batch",
     image: "safalta batch.png",
+    status: "progress",
     description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
     subjects: [
       {
@@ -604,6 +621,7 @@ const library = [
     name: "THE MATH HERO + UDAAN DI",
     icon: "THE MATH HERO + UDAAN DI",
     image: "the math hero + udaan di.png",
+    status: "progress",
     description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
     subjects: [
       {
@@ -632,6 +650,7 @@ const library = [
     name: "Vocab Batch",
     icon: "Vocab Batch",
     image: "vocab batch.png",
+    status: "progress",
     description: "• 🎥High-Quality Video Lectures,<br/><br/> • 📖Complete Study Material,<br/><br/>• 📝Notes & Important Questions, <br/><br/> •💻Practical Examples,<br/><br/>•🎯Topic-wise Learning,<br/><br/>•🔥Regularly Updated Content,<br/><br/>•📂Organized Course Material",
     subjects: [
       {
@@ -718,6 +737,12 @@ function renderCards(data, type) {
     const tag = type === "folder" ? "FOLDER" : type === "subject" ? "SUBJECT" : "CLASS";
     const count = type === "folder" ? `${item.subjects.length} subjects` : type === "subject" ? `${item.classes.length} classes` : item.duration;
     const action = type === "class" ? "WATCH →" : "OPEN →";
+    const statusHTML =
+      type === "folder" && item.status === "completed"
+        ? `<span class="batch-status completed">✓ Batch Completed</span>`
+        : type === "folder" && item.status === "progress"
+          ? `<span class="batch-status progress">⏳ Batch In Progress</span>`
+          : "";
 
     const visual = item.image
       ? `<div class="card-image">
@@ -727,16 +752,17 @@ function renderCards(data, type) {
       : `<div class="card-icon">${item.icon || "▶"}</div>`;
 
     return `
-      <article class="card" data-type="${type}" data-id="${item.id}">
+    <article class="card" data-type="${type}" data-id="${item.id}">
         ${visual}
+        ${statusHTML}
         <span class="card-tag">${tag}</span>
         <h3>${item.name}</h3>
         <p>${item.description || "Video lesson"}</p>
         <div class="card-bottom">
-          <span>${count}</span>
-          <span class="open">${action}</span>
+            <span>${count}</span>
+            <span class="open">${action}</span>
         </div>
-      </article>`;
+    </article>`;
   }).join("");
 
   emptyState.hidden = data.length > 0;
@@ -895,3 +921,39 @@ if (localStorage.getItem("sahil-elevate-theme") === "light") {
 }
 
 render();
+
+
+// <========== Right Click popup Block + Shortcut Keys ==========>
+
+
+document.addEventListener("contextmenu", function (event) {
+  event.preventDefault();
+});
+
+document.addEventListener("keydown", function (event) {
+
+  // F12
+  if (event.key === "F12") {
+    event.preventDefault();
+  }
+
+  // Ctrl + Shift + I
+  if (event.ctrlKey && event.shiftKey && event.key.toLowerCase() === "i") {
+    event.preventDefault();
+  }
+
+  // Ctrl + Shift + J
+  if (event.ctrlKey && event.shiftKey && event.key.toLowerCase() === "j") {
+    event.preventDefault();
+  }
+
+  // Ctrl + U
+  if (event.ctrlKey && event.key.toLowerCase() === "u") {
+    event.preventDefault();
+  }
+
+  // Ctrl + S
+  if (event.ctrlKey && event.key.toLowerCase() === "s") {
+    event.preventDefault();
+  }
+});

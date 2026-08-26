@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Free Educations</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="home.css">
+
+  <link rel="icon" type="image/x-icon" href="sahil-elevate.jpg">
+</head>
+
+<body>
+
+  <div class="grid-bg"></div>
+
+  <!-- HEADER -->
+  <header class="topbar">
+
+    <a class="brand" href="profile.html">
+
+      <span class="logo">
+        <img src="sahil-elevate.jpg" alt="Free Educations">
+      </span>
+
+      <span>
+        <b>Free Educations</b>
+        <small>The Perfect Education System</small>
+      </span>
+
+    </a>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="home.html" class="active">Classes</a>
+      <a href="#folders">Learning Folders</a>
+      <a href="#player">Video</a>
+    </nav>
+
+    <div class="header-actions">
+
+      <button id="themeBtn" class="icon-btn" type="button" aria-label="Change theme">
+        ☾
+      </button>
+
+      <a href="index.html" class="home-btn">
+        Home ↗
+      </a>
+
+    </div>
+
+  </header>
+
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+
+      <div class="hero-copy">
+
+        <span class="eyebrow">
+          Free Educations • CLASS LIBRARY
+        </span>
+
+        <h1>
+          Learn class by class.
+          <br>
+          <em>Grow step by step.</em>
+        </h1>
+
+        <p>
+          Choose a learning folder, select your subject,
+          open a class and start learning through your
+          YouTube lesson.
+        </p>
+
+        <div class="hero-stats">
+
+          <div>
+            <b id="folderStat">0</b>
+            <small>Folders</small>
+          </div>
+
+          <div>
+            <b id="subjectStat">0</b>
+            <small>Subjects</small>
+          </div>
+
+          <div>
+            <b id="classStat">0</b>
+            <small>Classes</small>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="hero-visual">
+
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="hero-core">
+          ▶
+        </div>
+
+        <span class="floating f1">Banking</span>
+        <span class="floating f2">SSC</span>
+        <span class="floating f3">Railway</span>
+        <span class="floating f4">CET</span>
+
+      </div>
+
+    </section>
+
+
+    <!-- LIBRARY -->
+    <section id="folders" class="library">
+
+      <div class="toolbar">
+
+        <div id="breadcrumbs" class="breadcrumbs"></div>
+
+        <div class="toolbar-actions">
+
+          <input id="searchInput" type="search" placeholder="Search..." autocomplete="off">
+
+          <button id="backBtn" class="small-btn" type="button" disabled>
+            ← Back
+          </button>
+
+        </div>
+
+      </div>
+
+
+      <div class="section-heading">
+
+        <div>
+
+          <span id="viewKicker" class="section-kicker">
+            LEARNING FOLDERS
+          </span>
+
+          <h2 id="viewTitle">
+            Choose a learning folder
+          </h2>
+
+        </div>
+
+        <span id="countLabel" class="count">
+          0 folders
+        </span>
+
+      </div>
+
+
+      <div id="cards" class="cards"></div>
+
+
+      <div id="emptyState" class="empty" hidden>
+
+        <div>⌕</div>
+
+        <h3>
+          No results found
+        </h3>
+
+        <p>
+          Try another search.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- VIDEO PLAYER -->
+    <section id="player" class="player-section" hidden>
+
+      <div class="player-heading">
+
+        <div>
+
+          <span class="section-kicker">
+            NOW PLAYING
+          </span>
+
+          <h2 id="playerTitle">
+            Class
+          </h2>
+
+          <p id="playerPath"></p>
+
+        </div>
+
+        <button id="closePlayer" class="small-btn" type="button">
+          Close Video ×
+        </button>
+
+      </div>
+
+
+      <div class="player-grid">
+
+        <div class="video-wrapper">
+
+          <iframe id="videoFrame" src="" title="Free Educations Class" loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+
+        </div>
+
+
+        <aside class="lesson-panel">
+
+          <span class="panel-title">
+            CLASSES IN THIS SUBJECT
+          </span>
+
+          <div id="lessonQueue"></div>
+
+        </aside>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    <div class="footer-brand">
+
+      <span class="logo">
+        <img src="sahil-elevate.jpg" alt="Free Educations">
+      </span>
+
+      <div>
+        <b>Free Educations</b>
+        <small>Learn • Grow • Succeed</small>
+      </div>
+
+    </div>
+
+    <span>
+      © 2026 Free Educations
+    </span>
+
+  </footer>
+
+
+  <div id="toast" class="toast">
+  </div>
+
+
+  <!-- IMPORTANT -->
+  <!-- Aapki actual file ka naam home.js hai -->
+  <script src="./home.js"></script>
+
+</body>
+
+</html>

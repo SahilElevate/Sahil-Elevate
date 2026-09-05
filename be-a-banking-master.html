@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charSet="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <title>Free Educations Paid Batch</title>
+    <link rel="shortcut icon" href="sahil-elevate.jpg" type="image/x-icon">
+    <meta name="title" content="Free Educations" />
+    <meta property="og:title" content="Free Educations" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="Images" />
+    <link rel="icon" href="sahil-elevate.jpg" />
+    <meta name="next-head-count" content="17" />
+    <link rel="preload" href="be-a-banking-master.css" as="style" />
+    <link rel="stylesheet" href="be-a-banking-master.css" data-n-g="" />
+</head>
+
+<body>
+    <style>
+        :root {
+            --primary: 210 4% 9%;
+            --primary-foreground: 0 0% 100%;
+            --color-primary: hsl(var(--primary));
+            --color-primary-lighter: hsl(210 4% 19%);
+            --color-primary-lightest: hsl(210 4% 96%);
+            --color-primary-darker: hsl(210 4% 4%);
+            --color-primary-darkest: hsl(210 4% 4%);
+            --text-color: hsl(var(--primary-foreground));
+            --text-primary-light-tint: hsl(var(--primary-foreground));
+            --text-color-lightest-bg: hsl(var(--secondary-foreground));
+            --ring: var(--primary);
+            --bs-primary: var(--color-primary);
+            --bs-primary-rgb: 22, 23, 24;
+            --bs-link-color: hsl(var(--primary));
+            --bs-link-hover-color: hsl(210 4% 4%);
+        }
+
+        .dark {
+            --primary: 0 0% 100%;
+            --primary-foreground: 0 0% 12%;
+            --color-primary: hsl(var(--primary));
+            --color-primary-lighter: hsl(0 0% 100%);
+            --color-primary-lightest: hsl(0 0% 96%);
+            --color-primary-darker: hsl(0 0% 90%);
+            --color-primary-darkest: hsl(0 0% 70%);
+            --text-color: hsl(var(--primary-foreground));
+            --text-primary-light-tint: hsl(var(--primary-foreground));
+            --text-color-lightest-bg: hsl(var(--secondary-foreground));
+            --ring: var(--primary);
+            --bs-primary: var(--color-primary);
+            --bs-primary-rgb: 255, 255, 255;
+            --bs-link-color: hsl(var(--primary));
+            --bs-link-hover-color: hsl(0 0% 90%);
+        }
+
+        .btn-primary {
+            --bs-btn-color: hsl(var(--primary-foreground));
+            --bs-btn-bg: var(--color-primary);
+            --bs-btn-border-color: var(--color-primary);
+            --bs-btn-hover-color: hsl(var(--primary-foreground));
+            --bs-btn-hover-bg: var(--color-primary-darker);
+            --bs-btn-hover-border-color: var(--color-primary-darker);
+            --bs-btn-active-color: hsl(var(--primary-foreground));
+            --bs-btn-active-bg: var(--color-primary-darker);
+            --bs-btn-active-border-color: var(--color-primary-darker);
+            --bs-btn-disabled-color: #fff;
+            --bs-btn-disabled-bg: var(--color-primary-lighter);
+            --bs-btn-disabled-border-color: var(--color-primary-lighter);
+        }
+
+        .btn-outline-primary {
+            --bs-btn-color: hsl(var(--foreground));
+            --bs-btn-border-color: var(--color-primary);
+            --bs-btn-hover-color: hsl(var(--primary-foreground));
+            --bs-btn-hover-bg: var(--color-primary);
+            --bs-btn-hover-border-color: var(--color-primary);
+            --bs-btn-active-color: hsl(var(--primary-foreground));
+            --bs-btn-active-bg: var(--color-primary);
+            --bs-btn-active-border-color: var(--color-primary-darker);
+            --bs-btn-disabled-color: var(--color-primary);
+            --bs-btn-disabled-bg: transparent;
+            --bs-btn-disabled-border-color: var(--color-primary);
+        }
+
+        .btn-primary-light {
+            --bs-btn-color: hsl(var(--secondary-foreground));
+            --bs-btn-bg: hsl(var(--secondary));
+            --bs-btn-border-color: hsl(var(--secondary));
+            --bs-btn-hover-color: hsl(var(--secondary-foreground));
+            --bs-btn-hover-bg: hsl(var(--secondary));
+            --bs-btn-hover-border-color: hsl(var(--secondary));
+            --bs-btn-active-bg: var(--color-primary-darker);
+            --bs-btn-active-border-color: var(--color-primary-darker);
+            --bs-btn-disabled-bg: hsl(var(--secondary));
+            --bs-btn-disabled-border-color: hsl(var(--secondary));
+        }
+
+        .alert-primary {
+            --bs-alert-color: hsl(var(--primary) / 0.7);
+            --bs-alert-bg: hsl(var(--secondary));
+            --bs-alert-border-color: hsl(var(--border));
+        }
+    </style>
+
+    <div class="relative flex flex-col">
+        <header id="header" class="sticky top-0 p-4 z-50 w-full pointer-events-none">
+            <div
+                class="pointer-events-auto mx-auto flex w-full max-w-7xl items-center justify-between gap-2 rounded-xl bg-secondary px-4 py-2.5 shadow-[0_2px_16px_rgba(169,167,178,0.66)] dark:shadow-[0_2px_16px_rgba(18,18,18,0.25)] dark:border dark:border-secondary backdrop-blur-md sm:gap-4 sm:px-3 md:h-16 md:gap-4 md:px-4 min-h-[52px] md:min-h-[64px]">
+                <div class="flex items-center gap-3">
+                    <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-medium ring-offset-background transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 text-foreground hover:bg-accent hover:text-accent-foreground size-10 shrink-0 lg:hidden"
+                        id="navbarToggler" aria-label="Open menu">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                            class="svg-inline--fa fa-bars fa-lg " role="img" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 448 512">
+                            <path fill="currentColor"
+                                d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z">
+                            </path>
+                        </svg>
+                    </button>
+                    <div class="flex items-center gap-4 lg:gap-6">
+                        <a id="headerLogo" href="/"
+                            class="absolute left-1/2 top-1/2 z-0 shrink-0 -translate-x-1/2 -translate-y-1/2 lg:static lg:translate-x-0 lg:translate-y-0">
+                            <img height="100" src="sahil-elevate.jpg"
+                                class="h-9 max-w-24 w-auto object-contain rounded-sm sm:max-w-[120px] md:h-10 lg:max-w-none"
+                                alt="Logo" />
+                        </a>
+
+                        <div class="hidden min-w-0 gap-4 lg:gap-6 items-center lg:flex"><a
+                                class="flex items-center transition-all whitespace-nowrap no-underline text-foreground text-sm opacity-80"
+                                href="/">Home</a>
+                            <a class="flex items-center transition-all whitespace-nowrap no-underline text-foreground text-sm opacity-80"
+                                href="/new-courses">Paid Courses</a>
+                            <a class="flex items-center transition-all whitespace-nowrap no-underline text-foreground text-sm opacity-80"
+                                href="/zero-price-courses">Youtube Courses</a>
+                            <a class="flex items-center transition-all whitespace-nowrap no-underline text-foreground text-sm opacity-80"
+                                href="/test-series">Test Series</a>
+
+                            <button type="button" id="radix-:Raiad6:" aria-haspopup="menu" aria-expanded="false"
+                                data-state="closed"
+                                class="flex items-center transition-all whitespace-nowrap no-underline text-foreground text-sm opacity-80 gap-1 outline-none">More<!-- -->
+
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down"
+                                    class="svg-inline--fa fa-chevron-down h-3 w-3" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+
+                                    <path fill="currentColor"
+                                        d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <form class="max-lg:hidden flex lg:max-w-xs w-full">
+                    <div class="relative w-full">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="magnifying-glass"
+                            class="svg-inline--fa fa-magnifying-glass pointer-events-none absolute top-1/2 left-2 size-6 -translate-y-1/2 text-foreground"
+                            role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+
+                            <path fill="currentColor"
+                                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z">
+                            </path>
+                        </svg>
+                        <input type="search" placeholder="search" aria-label="search input"
+                            class="w-full rounded-full border-0 bg-muted dark:bg-accent h-9 py-1 px-3 pl-10 text-sm text-foreground placeholder:text-muted-foreground focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none"
+                            value="" />
+                    </div>
+                </form>
+
+                <div class="relative z-10 flex items-center gap-2">
+
+                    <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-medium ring-offset-background transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-border bg-background text-foreground hover:bg-accent hover:text-accent-foreground size-10 relative shrink-0"
+                        disabled="" aria-hidden="true">
+                        <span class="size-4">
+                        </span>
+                    </button>
+                    <div class="overflow-hidden p-3 rounded-full bg-primary text-primary-foreground aspect-square flex items-center justify-center"
+                        type="button" id="radix-:Ruad6:" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+                        <span class="font-medium">
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <div class="bg-background text-foreground">
+            <div class="mx-auto flex flex-col min-h-screen antialiased">
+                <div class="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 py-6 lg:gap-8 lg:py-12">
+                    <div class="flex flex-col gap-6 lg:gap-12">
+                        <div class="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+                            <div class="flex w-full min-w-0 items-center gap-4 md:flex-1">
+                            </div>
+                        </div>
+                    </div>
+
+                    <section
+                        class="flex flex-col gap-8 rounded-2xl border border-border bg-secondary p-3 sm:flex-row sm:items-center">
+                        <div class="relative aspect-video w-full shrink-0 overflow-hidden rounded-2xl border sm:w-60">
+                            <div class="relative w-full h-full overflow-hidden" style="height:135px">
+                                <div class="absolute inset-0 w-full h-full scale-110 blur-xl"
+                                    style="background-image:url(https://appx-content-v2.classx.co.in/paid_course3/2026-07-08-0_39323559292390164.jpeg);background-size:cover;background-position:center;height:135px">
+                                </div><img alt="Grammer Granth" src="grammer-granth.png"
+                                    class="relative block mx-auto h-full w-auto object-contain" style="height:135px" />
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-6 w-full">
+                            <div class="flex flex-col gap-2.5">
+                                <div
+                                    class="hidden items-center gap-2 text-sm text-muted-foreground has-[h6]:flex has-[p]:flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-calendar size-4 shrink-0"
+                                        aria-hidden="true">
+                                        <path d="M8 2v4"></path>
+                                        <path d="M16 2v4"></path>
+                                        <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                                        <path d="M3 10h18"></path>
+                                    </svg>
+                                </div>
+                                <h1 class="mb-0 text-lg md:text-xl font-bold text-balance text-foreground">Grammer
+                                    Granth</h1>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <div class="flex min-w-0 flex-col overflow-hidden rounded-2xl border">
+                        <div role="tablist" class="flex overflow-x-auto border-b border-border px-4 pt-4 no-scrollbar">
+                            <button type="button" role="tab" aria-selected="true"
+                                class="relative flex shrink-0 items-center gap-2 px-5 pb-3 text-base font-medium transition-colors duration-200 ease focus-visible:outline-none sm:text-sm text-primary">
+                                <span class="whitespace-nowrap">Content</span>
+                                <span
+                                    class="absolute bottom-0 left-0 right-0 h-0.5 rounded-full bg-primary transition-opacity duration-200 ease opacity-100">
+                                </span>
+                            </button>
+                            <button type="button" role="tab" aria-selected="false"
+                                class="relative flex shrink-0 items-center gap-2 px-5 pb-3 text-base font-medium transition-colors duration-200 ease focus-visible:outline-none sm:text-sm text-secondary-foreground hover:text-primary">
+                                <span class="whitespace-nowrap">Live &amp; Upcoming</span>
+                                <span
+                                    class="absolute bottom-0 left-0 right-0 h-0.5 rounded-full bg-primary transition-opacity duration-200 ease opacity-0">
+                                </span>
+                            </button>
+                        </div>
+                        <div class="min-w-0 bg-popover px-4 py-6 dark:bg-accent sm:px-8">
+                            <section class="flex flex-col gap-3">
+                                <div class="flex w-full p-4 md:px-8 md:py-6 flex-col gap-8">
+                                    <div class="flex w-full justify-start md:justify-end">
+                                        <form class="w-full md:max-w-sm">
+                                            <div
+                                                class="flex items-center gap-1 rounded-xl border border-border bg-secondary/60 p-1 shadow-sm">
+                                                <div class="relative min-w-0 flex-1"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="lucide lucide-search pointer-events-none absolute top-1/2 left-2.5 size-4 -translate-y-1/2 text-muted-foreground"
+                                                        aria-hidden="true">
+                                                        <circle cx="11" cy="11" r="8"></circle>
+                                                        <path d="m21 21-4.3-4.3"></path>
+                                                    </svg><input type="text"
+                                                        class="flex w-full rounded-md border-foreground/50 px-3 py-2 text-base text-foreground file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 md:text-[13px] h-8 border-0 bg-transparent pl-8 shadow-none focus-visible:border-transparent focus-visible:ring-0 pr-2"
+                                                        placeholder="Search content..."
+                                                        aria-label="Search course content" value="" /></div><button
+                                                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg font-medium ring-offset-background transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground hover:bg-primary/90 border border-transparent h-7 py-1.5 text-xs shrink-0 px-3"
+                                                    type="submit" disabled="">Search</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="infinite-scroll-component__outerdiv">
+                                        <div class="infinite-scroll-component flex w-full flex-col gap-3 overflow-x-hidden overflow-y-auto"
+                                            style="height:auto;overflow:auto;-webkit-overflow-scrolling:touch">
+                                            <div
+                                                class="flex flex-col items-center justify-center gap-5 py-16 text-center ">
+                                                <svg viewBox="0 0 200 178" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"
+                                                    class="h-40 w-40 md:h-44 md:w-44">
+                                                    <circle cx="100" cy="82" r="72" fill="hsl(var(--primary))"
+                                                        opacity="0.07"></circle>
+                                                    <rect x="54" y="34" width="76" height="96" rx="12"
+                                                        fill="hsl(var(--muted))" stroke="hsl(var(--border))"
+                                                        stroke-width="2"></rect>
+                                                    <rect x="67" y="53" width="50" height="7" rx="3.5"
+                                                        fill="hsl(var(--muted-foreground))" opacity="0.35"></rect>
+                                                    <rect x="67" y="68" width="38" height="7" rx="3.5"
+                                                        fill="hsl(var(--muted-foreground))" opacity="0.28"></rect>
+                                                    <rect x="67" y="83" width="44" height="7" rx="3.5"
+                                                        fill="hsl(var(--muted-foreground))" opacity="0.22"></rect>
+                                                    <circle cx="120" cy="106" r="27" fill="hsl(var(--background))"
+                                                        stroke="hsl(var(--primary))" stroke-width="5"></circle>
+                                                    <circle cx="120" cy="106" r="14" fill="hsl(var(--primary))"
+                                                        opacity="0.12"></circle>
+                                                    <line x1="141" y1="127" x2="160" y2="146"
+                                                        stroke="hsl(var(--primary))" stroke-width="7"
+                                                        stroke-linecap="round"></line>
+                                                    <circle cx="48" cy="120" r="3.5" fill="hsl(var(--primary))"
+                                                        opacity="0.4"></circle>
+                                                    <circle cx="150" cy="44" r="2.5" fill="hsl(var(--primary))"
+                                                        opacity="0.35"></circle>
+                                                    <circle cx="40" cy="60" r="2" fill="hsl(var(--muted-foreground))"
+                                                        opacity="0.3"></circle>
+                                                </svg>
+                                                <div class="flex flex-col gap-1.5">
+                                                    <h3
+                                                        class="mb-0 max-w-md text-lg font-bold tracking-tight text-foreground md:text-xl">
+                                                        No content available</h3>
+                                                </div>
+                                            </div>
+                                            <div style="height:1px"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <section aria-label="Notifications alt+T" tabindex="-1" aria-live="polite"
+                    aria-relevant="additions text" aria-atomic="false" data-react-aria-top-layer="true"></section>
+                <footer class="w-full border-t border-border bg-background text-foreground" id="footer">
+                    <div class="flex flex-col gap-4 justify-center max-w-7xl mx-auto px-[16px] py-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 lg:gap-8 space-y-3 lg:space-y-0">
+                            <div class="flex flex-col lg:gap-12 lg:justify-between lg:col-span-2">
+                                <div class="flex flex-col gap-[16px]"><img
+                                        src="https://appx-wsb-gcp-mcdn.akamai.net.in/subject/2022-06-10-0.035375782739233586.webp"
+                                        width="100" alt="Logo" />
+                                    <div class="flex flex-col gap-[8px]"></div>
+                                </div>
+                                <div class="flex flex-col gap-2">
+                                    <h6 class="text-base mb-0 text-foreground">Follow us</h6>
+                                    <div class="flex gap-2 flex-wrap"><a target="_blank" rel="noopener noreferrer"
+                                            href="https://www.youtube.com/@ScienceMagnet" aria-label="Youtube"><button
+                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-medium ring-offset-background transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-border bg-background text-foreground hover:bg-accent hover:text-accent-foreground size-10"
+                                                aria-hidden="true" tabindex="-1"><svg aria-hidden="true"
+                                                    focusable="false" data-prefix="fab" data-icon="youtube"
+                                                    class="svg-inline--fa fa-youtube fa-lg " role="img"
+                                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                    <path fill="currentColor"
+                                                        d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z">
+                                                    </path>
+                                                </svg></button></a>
+                                        <a target="_blank" rel="noopener noreferrer"
+                                            href="https://www.instagram.com/sciencemagnet/"
+                                            aria-label="Instagram"><button
+                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-medium ring-offset-background transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-border bg-background text-foreground hover:bg-accent hover:text-accent-foreground size-10"
+                                                aria-hidden="true" tabindex="-1"><svg aria-hidden="true"
+                                                    focusable="false" data-prefix="fab" data-icon="instagram"
+                                                    class="svg-inline--fa fa-instagram fa-lg " role="img"
+                                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                    <path fill="currentColor"
+                                                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                                                    </path>
+                                                </svg></button></a>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://t.me/NeerajScience"
+                                            aria-label="Telegram"><button
+                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-medium ring-offset-background transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-border bg-background text-foreground hover:bg-accent hover:text-accent-foreground size-10"
+                                                aria-hidden="true" tabindex="-1"><svg aria-hidden="true"
+                                                    focusable="false" data-prefix="fab" data-icon="telegram"
+                                                    class="svg-inline--fa fa-telegram fa-lg " role="img"
+                                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                                    <path fill="currentColor"
+                                                        d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z">
+                                                    </path>
+                                                </svg></button></a>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://wa.me/7374019437"
+                                            aria-label="Whatsapp"><button
+                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-medium ring-offset-background transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-border bg-background text-foreground hover:bg-accent hover:text-accent-foreground size-10"
+                                                aria-hidden="true" tabindex="-1"><svg aria-hidden="true"
+                                                    focusable="false" data-prefix="fab" data-icon="whatsapp"
+                                                    class="svg-inline--fa fa-whatsapp fa-lg " role="img"
+                                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                    <path fill="currentColor"
+                                                        d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z">
+                                                    </path>
+                                                </svg></button></a>
+                                        <a target="_blank" rel="noopener noreferrer"
+                                            href="https://www.facebook.com/profile.php?id=100082970570049"
+                                            aria-label="Facebook"><button
+                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-medium ring-offset-background transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-border bg-background text-foreground hover:bg-accent hover:text-accent-foreground size-10"
+                                                aria-hidden="true" tabindex="-1"><svg aria-hidden="true"
+                                                    focusable="false" data-prefix="fab" data-icon="facebook"
+                                                    class="svg-inline--fa fa-facebook fa-lg " role="img"
+                                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                    <path fill="currentColor"
+                                                        d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z">
+                                                    </path>
+                                                </svg></button></a>
+                                        <a target="_blank" rel="noopener noreferrer"
+                                            href="https://x.com/neerajjangid_11?s=21" aria-label="Twitter"><button
+                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-medium ring-offset-background transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-border bg-background text-foreground hover:bg-accent hover:text-accent-foreground size-10"
+                                                aria-hidden="true" tabindex="-1"><svg aria-hidden="true"
+                                                    focusable="false" data-prefix="fab" data-icon="x-twitter"
+                                                    class="svg-inline--fa fa-x-twitter fa-lg " role="img"
+                                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                    <path fill="currentColor"
+                                                        d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z">
+                                                    </path>
+                                                </svg></button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2 lg:col-span-2">
+                                <h6 class="text-base mb-0 text-foreground">Contact</h6><a
+                                    class="flex items-center no-underline text-sm gap-2 text-current"
+                                    href="tel:7374019437"><svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                        data-icon="phone" class="svg-inline--fa fa-phone fa-sm " role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z">
+                                        </path>
+                                    </svg><span
+                                        class="overflow-hidden text-ellipsis whitespace-nowrap">7374019437</span></a>
+                                <a class="flex items-center no-underline text-sm gap-2 text-current"
+                                    href="https://wa.me/7374019437"><svg aria-hidden="true" focusable="false"
+                                        data-prefix="fab" data-icon="whatsapp" class="svg-inline--fa fa-whatsapp fa-sm "
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                        <path fill="currentColor"
+                                            d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z">
+                                        </path>
+                                    </svg>
+                                    <span class="overflow-hidden text-ellipsis whitespace-nowrap">7374019437</span>
+                                </a><a class="flex items-center no-underline text-sm gap-2 text-current"
+                                    href="mailto:sciencemagnet7374@gmail.com"><svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="envelope" class="svg-inline--fa fa-envelope fa-sm "
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z">
+                                        </path>
+                                    </svg><span
+                                        class="overflow-hidden text-ellipsis whitespace-nowrap">sciencemagnet7374@gmail.com</span></a>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <h6 class="text-base mb-0 text-foreground">Legal</h6><a
+                                    class="no-underline text-sm text-muted-foreground transition-colors duration-200 hover:text-foreground hover:underline"
+                                    href="/terms" target="_blank" rel="noopener noreferrer">Terms &amp;
+                                    Conditions</a><a
+                                    class="no-underline text-sm text-muted-foreground transition-colors duration-200 hover:text-foreground hover:underline"
+                                    href="/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy
+                                    Policy</a><a
+                                    class="no-underline text-sm text-muted-foreground transition-colors duration-200 hover:text-foreground hover:underline"
+                                    href="/refund-policy" target="_blank" rel="noopener noreferrer">Refunds &amp;
+                                    Cancellation Policy</a>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <h6 class="text-base mb-0 text-foreground">Download App</h6>
+                                <div class="flex flex-col gap-[8px] w-fit"><a
+                                        href="https://play.google.com/store/apps/details?id=com.science.magnet"
+                                        target="_blank" rel="noopener noreferrer" class="w-fit"><img alt="Google Play"
+                                            src="/google-play.svg" class="bg-white" width="132" /></a><a
+                                        href="https://appx-content-v2.classx.co.in/windows/Science_Magnet-0.0.1.dmg"
+                                        target="_blank" rel="noopener noreferrer" class="w-fit"><img
+                                            alt="Mac with Intel"
+                                            src="https://appx-static.akamai.net.in/static-assets/website/intel.webp"
+                                            width="132" class="bg-white" /></a><a
+                                        href="https://appx-content-v2.classx.co.in/windows/Science_Magnet-0.0.1-arm64.dmg"
+                                        target="_blank" rel="noopener noreferrer" class="w-fit"><img
+                                            alt="Mac with Apple"
+                                            src="https://appx-static.akamai.net.in/static-assets/website/mac.webp"
+                                            width="132" class="bg-white" /></a><a
+                                        href="https://appx-content-v2.classx.co.in/windows/science_magnet_setup_0.0.2.exe"
+                                        target="_blank" rel="noopener noreferrer"><img alt="Windows"
+                                            src="https://appx-static.akamai.net.in/static-assets/website/windows.webp"
+                                            width="132" /></a></div>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-2 pt-4 border-t"><span
+                                class="pointer-events-none absolute right-2 bottom-1 text-xxs text-primary-foreground/20 select-none">v<!-- -->0<!-- --></span>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script id="__NEXT_DATA__" type="application/json">
+        {
+            "props": {
+                "pageProps": {
+                    "activeTab": "Content",
+                    "id": "101",
+                    "api": "https://sciencemagnetapi.classx.co.in/",
+                    "course": {
+                        "id": "101",
+                        "is_sebi_flow_enabled": "0",
+                        "sebi_details": {
+                            "consent_type": "NONE",
+                            "pan_verification_mode": "NONE",
+                            "aadhar_consent_price": "0",
+                            "pan_verification_price": "0",
+                            "aadhar_inclusive": "0",
+                            "pan_inclusive": "0"
+                        },
+                        "kyc_details": [],
+                        "aadhaar_details": [],
+                        "type": "COURSE",
+                        "parent_id": "-1",
+                        "course_slug": "group-d-2026-science-class",
+                        "exam_name": "Group D 2026 Science 30 Class",
+                        "exam_category": "Group D 2026 Science 30 Class",
+                        "currency": "INR",
+                        "is_combo": 0,
+                        "sub_exam_category": "",
+                        "exam_logo": "",
+                        "categories": "",
+                        "course_name": "Group D 2026 Science Class",
+                        "course_description": "",
+                        "course_feature_1": "",
+                        "course_feature_2": "",
+                        "course_feature_3": "",
+                        "course_feature_4": "",
+                        "course_feature_5": "",
+                        "teacher_id": -1,
+                        "teacher_name": "",
+                        "teacher_image": "",
+                        "vod_courses": "",
+                        "course_thumbnail": "https://appx-content-v2.classx.co.in/paid_course3/2026-07-08-0_39323559292390164.jpeg",
+                        "small_course_logo": "",
+                        "book_id": "-1",
+                        "book_compulsory": "0",
+                        "book": null,
+                        "study_material_id": -1,
+                        "study_material_compulsory": 0,
+                        "is_doubts_attached": "0",
+                        "enable_tabs_control": "0",
+                        "is_groupchat_enabled": "0",
+                        "show_live_upcoming_tab": "0",
+                        "show_content_tab": "0",
+                        "show_test_tab": "0",
+                        "show_my_doubts_tab": "0",
+                        "show_all_doubts_tab": "0",
+                        "show_telegram_tab": "0",
+                        "show_quiz_tab": "0",
+                        "show_web_tab": "0",
+                        "show_demo_tab": "0",
+                        "show_feed_tab": "0",
+                        "is_aadhar_mandatory": "0",
+                        "post_expiry_grace_period_days": "0",
+                        "study_material": null,
+                        "upsell_items": [],
+                        "pricing_plans": [],
+                        "subscription_plans": [],
+                        "price_without_gst": "-1",
+                        "price": "0",
+                        "mrp": "0",
+                        "price_kicker": "0.00",
+                        "uhs_price": "0",
+                        "seats": 0,
+                        "video_count": 0,
+                        "pdf_count": 0,
+                        "test_count": 0,
+                        "course_demo_video": "",
+                        "course_demo_pdf": "",
+                        "test_series_id": "",
+                        "start_date": "2026-06-30",
+                        "end_date": "",
+                        "is_paid": 1,
+                        "access_requested": 0,
+                        "live_class_count": 0,
+                        "gif_display": "0",
+                        "enable_broker_purchase": "0",
+                        "enable_international_pricing": "0",
+                        "enable_subscription_trial": "0",
+                        "subscription_trial_config": null,
+                        "is_featured": "0",
+                        "subscription_flag": "0",
+                        "view_in_web": "1",
+                        "likes_count": "0",
+                        "allow_payment": "1",
+                        "expiry_mode": "0",
+                        "is_tgconnect_enabled": 0,
+                        "tg_channel_name": "",
+                        "test_pass_compulsory": "0",
+                        "enable": "1",
+                        "enable_download": "0",
+                        "disable_invoice": "0",
+                        "disable_discount_code": "0",
+                        "offline_flag": "0",
+                        "noofinstallment": "0",
+                        "perinstallment_validity": "0",
+                        "perinstallment_validity_type": "MONTHS",
+                        "installment_price": 0,
+                        "installmentplan": [],
+                        "showemipay": 0,
+                        "bharat_emi_price": 0,
+                        "validity": "12",
+                        "validity_type": "MONTHS",
+                        "featured_discounts": [],
+                        "folder_wise_course": 1,
+                        "expiryDate": "2027-09-05",
+                        "extended_validity": "4",
+                        "extended_validity_type": "MONTHS",
+                        "extended_validity_price": "-1",
+                        "videos_count": 7,
+                        "files_count": 0,
+                        "tests_count": 0,
+                        "quiz_count": 0,
+                        "images_count": 0,
+                        "enable_rich_snippets": "0",
+                        "language": "english",
+                        "meta_title": "Free PDF",
+                        "meta_description": "",
+                        "upgrade_courses": "",
+                        "custom_badge": "",
+                        "terms_and_conditions_pdf": "",
+                        "jsonld_schema": "{\r\n  \"@context\": \"https://schema.org\",\r\n  \"@type\": \"Course\",\r\n  \"name\": \"Free PDF\",\r\n  \"description\": \"\",\r\n  \"provider\": {\r\n    \"@type\": \"Organization\",\r\n    \"name\": \"Science Magnet\",\r\n    \"sameAs\": \"https://sciencemagnet.co\"\r\n  },\r\n  \"offers\": [\r\n    {\r\n      \"@type\": \"Offer\",\r\n      \"category\": \"Paid\",\r\n      \"priceCurrency\": \"INR\",\r\n      \"price\": \"0\"\r\n    }\r\n  ],\r\n  \"hasCourseInstance\": {\r\n    \"@type\": \"CourseInstance\",\r\n    \"courseMode\": \"online\",\r\n    \"startDate\": \"2026-06-30\",\r\n    \"endDate\": \"2027-06-30\",\r\n    \"courseSchedule\": {\r\n      \"@type\": \"Schedule\",\r\n      \"repeatCount\": 4,\r\n      \"repeatFrequency\": \"Weekly\",\r\n      \"startDate\": \"2026-06-30\",\r\n      \"endDate\": \"2027-06-30\"\r\n    }\r\n  }\r\n}",
+                        "course_count": 0,
+                        "linked_price_kicker": 0
+                    },
+                    "liveCourses": [],
+                    "tests": [],
+                    "telegramLinks": [],
+                    "vodCourses": [],
+                    "feedPosts": {
+                        "status": 200,
+                        "message": "Records Sended Successfully",
+                        "data": [],
+                        "total": 0
+                    },
+                    "quizTitles": []
+                },
+                "appConfig": "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",
+                "hasSession": true,
+                "query": {
+                    "activeTab": "Content",
+                    "id": "101"
+                },
+                "tenant": null
+            },
+            "page": "/new-courses/[id]/content",
+            "query": {
+                "activeTab": "Content",
+                "id": "101"
+            },
+            "buildId": "DexyIZexNLK0OaCErktGT",
+            "isFallback": false,
+            "gip": true,
+            "appGip": true,
+            "scriptLoader": []
+        }
+    </script>
+</body>
+
+</html>

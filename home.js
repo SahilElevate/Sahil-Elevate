@@ -268,8 +268,8 @@ const library = [
         image: "english-recorded.png",
         description: "Basic To Advanced",
         classes: [
-          { id: "No Video-01", name: "Class 01 — No Video", duration: "0hrs 0min 0sec", video: "" },
-          { id: "No Video-02", name: "Class 02 — No Video", duration: "0hrs 0min 0sec", video: "" }
+          { id: "Error Dections-01", name: "Class 01 — Error Dections", duration: "0hrs 0min 0sec", video: "" },
+          { id: "Error Dections-02", name: "Class 02 — Error Dections", duration: "0hrs 0min 0sec", video: "" }
         ]
       }
     ]

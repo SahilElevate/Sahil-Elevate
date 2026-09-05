@@ -46061,7 +46061,7 @@ svg.svg-inline--fa:not(:root) {
     border-radius: 20px;
     overflow: hidden;
 
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 1.20);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.10);
 
     transition:
         transform 0.25s ease,
@@ -46070,7 +46070,7 @@ svg.svg-inline--fa:not(:root) {
 
 .course-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.14);
 }
 
 /* Course Image */
@@ -46254,4 +46254,105 @@ svg.svg-inline--fa:not(:root) {
 .slick-slider .slick-track {
     display: flex !important;
     transition-timing-function: linear !important;
+}
+
+/* ============================================================
+   PERFORMANCE + SMOOTH CAROUSEL OPTIMIZATION
+   ============================================================ */
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+}
+
+.course-card {
+    contain: layout paint;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.10);
+    transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.course-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.14);
+}
+
+.course-card > img {
+    display: block;
+    background: #f5f5f5;
+    transform: translateZ(0);
+}
+
+/* Do not manually create slick-list/slick-track in HTML.
+   Slick creates them itself. */
+.my-main-carousel {
+    width: 100%;
+    overflow: hidden;
+}
+
+.my-main-carousel .carousel-slide {
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.my-main-carousel .carousel-card {
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 2rem;
+    background: #f5f5f5;
+}
+
+.my-main-carousel .carousel-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1200 / 500;
+    object-fit: cover;
+}
+
+.my-main-carousel .slick-list {
+    margin: 0 -10px;
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.my-main-carousel .slick-track {
+    display: flex !important;
+    align-items: stretch;
+    will-change: transform;
+}
+
+.my-main-carousel .slick-slide {
+    height: auto;
+}
+
+.my-main-carousel .slick-slide > div {
+    height: 100%;
+}
+
+@media (max-width: 900px) {
+    .my-main-carousel .carousel-slide {
+        padding: 0 6px;
+    }
+    .my-main-carousel .slick-list {
+        margin: 0 -6px;
+    }
+}
+
+@media (max-width: 600px) {
+    .my-main-carousel .carousel-card img {
+        aspect-ratio: 16 / 7;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
 }

@@ -13,6 +13,8 @@
     <meta name="next-head-count" content="18" />
     <link rel="preload" href="home.css" as="style" />
     <link rel="stylesheet" href="home.css" data-n-g="" />
+    <link rel="preconnect" href="https://code.jquery.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Slick JS -->
@@ -136,7 +138,7 @@
                             class="absolute left-1/2 top-1/2 z-0 shrink-0 -translate-x-1/2 -translate-y-1/2 lg:static lg:translate-x-0 lg:translate-y-0">
                             <img height="100" src="sahil-elevate.jpg"
                                 class="h-9 max-w-24 w-auto object-contain rounded-sm sm:max-w-[120px] md:h-10 lg:max-w-none"
-                                alt="Logo" />
+                                alt="Logo" / loading="lazy" decoding="async">
                         </a>
 
 
@@ -200,9 +202,9 @@
                     <div class="pb-8 pt-8 flex flex-col gap-6 md:gap-8 lg:gap-12 ">
                         <div class="slider-container relative overflow-hidden">
                             <div class="slick-slider slick-initialized" dir="ltr">
-                                <button
+                                <!-- <button
                                     class="absolute top-1/2 -translate-y-1/2 z-10 inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl text-sm font-medium ring-offset-background transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-primary hover:bg-secondary border border-input h-10 w-10 left-4"
-                                    aria-label="Previous slide">
+                                    id="prevBtn" aria-label="Previous slide">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round"
@@ -211,93 +213,64 @@
                                         <path d="M5 12l4 4"></path>
                                         <path d="M5 12l4 -4"></path>
                                     </svg>
-                                </button>
+                                </button> -->
 
 
-                                <!-- ========== Auto Scroll Banner ========== -->
-
-                                <!-- Main Parent DIV par class lagani hai -->
-                                <div class="my-main-carousel">
-                                    <div class="slick-list"> <!-- Ye Slick khud banata hai -->
-                                        <div class="slick-track">
-                                            ...
-                                        </div>
+                                <!-- ========== Auto Scroll Banner ==========
+                                <div class="my-main-carousel" aria-label="Featured courses carousel">
+                                    <div class="carousel-slide">
+                                        <a href="be-a-banking-master.html" rel="noreferrer">
+                                            <div class="carousel-card">
+                                                <img src="be-a-banking-master.png" alt="Be a Banking Master"
+                                                    width="1200" height="500" fetchpriority="high" decoding="async">
+                                            </div>
+                                        </a>
                                     </div>
-                                </div>
-                                <div class="slick-list" style="padding:0px 20%">
-                                    <div class="slick-track" style="width:600%;left:-200%">
-                                        <div data-index="-2" tabindex="-1" class="slick-slide slick-center slick-cloned"
-                                            aria-hidden="true" style="width:16.666666666666668%">
-                                            <div>
-                                                <a href="" rel="noreferrer" class="px-2" tabindex="-1"
-                                                    style="width:100%;display:inline-block">
-                                                    <div class="relative border rounded-[2rem] overflow-hidden">
-                                                        <img alt="hero" src="be-a-banking-master.png" class="w-full" />
-                                                    </div>
-                                                </a>
+                                    <div class="carousel-slide">
+                                        <a href="english-recorded.html" rel="noreferrer">
+                                            <div class="carousel-card">
+                                                <img src="english-recorded.png" alt="English Recorded" width="1200"
+                                                    height="500" loading="lazy" decoding="async">
                                             </div>
-                                        </div>
-                                        <div data-index="-1" tabindex="-1" class="slick-slide slick-cloned"
-                                            aria-hidden="true" style="width:16.666666666666668%">
-                                            <div>
-                                                <a href="" rel="noreferrer" class="px-2" tabindex="-1"
-                                                    style="width:100%;display:inline-block">
-                                                    <div class="relative border rounded-[2rem] overflow-hidden"><img
-                                                            alt="hero" src="grammer-granth.png" class="w-full" /></div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div data-index="0" class="slick-slide slick-active slick-center slick-current"
-                                            tabindex="-1" aria-hidden="false"
-                                            style="outline:none;width:16.666666666666668%">
-                                            <div>
-                                                <a href="" rel="noreferrer" class="px-2" tabindex="-1"
-                                                    style="width:100%;display:inline-block">
-                                                    <div class="relative border rounded-[2rem] overflow-hidden"><img
-                                                            alt="hero" src="perfection 9.0 2026.png" class="w-full" />
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div data-index="1" class="slick-slide" tabindex="-1" aria-hidden="true"
-                                            style="outline:none;width:16.666666666666668%">
-                                            <div>
-                                                <a href="" rel="noreferrer" class="px-2" tabindex="-1"
-                                                    style="width:100%;display:inline-block">
-                                                    <div class="relative border rounded-[2rem] overflow-hidden"><img
-                                                            alt="hero" src="english-recorded.png" class="w-full" />
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div data-index="2" tabindex="-1" class="slick-slide slick-center slick-cloned"
-                                            aria-hidden="true" style="width:16.666666666666668%">
-                                            <div>
-                                                <a href="" rel="noreferrer" class="px-2" tabindex="-1"
-                                                    style="width:100%;display:inline-block">
-                                                    <div class="relative border rounded-[2rem] overflow-hidden"><img
-                                                            alt="hero" src="gaint-2.0.png" class="w-full" /></div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div data-index="3" tabindex="-1" class="slick-slide slick-cloned"
-                                            aria-hidden="true" style="width:16.666666666666668%">
-                                            <div>
-                                                <a href="" rel="noreferrer" class="px-2" tabindex="-1"
-                                                    style="width:100%;display:inline-block">
-                                                    <div class="relative border rounded-[2rem] overflow-hidden"><img
-                                                            alt="hero" src="made-easy-2.0.png" class="w-full" /></div>
-                                                </a>
-                                            </div>
-                                        </div>
+                                        </a>
                                     </div>
-
-
-                                </div>
+                                    <div class="carousel-slide">
+                                        <a href="#" rel="noreferrer">
+                                            <div class="carousel-card">
+                                                <img src="perfection 9.0 2026.png" alt="Perfection 9.0 2026"
+                                                    width="1200" height="500" loading="lazy" decoding="async">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <a href="#" rel="noreferrer">
+                                            <div class="carousel-card">
+                                                <img src="gaint-2.0.png" alt="Gaint 2.0" width="1200" height="500"
+                                                    loading="lazy" decoding="async">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <a href="#" rel="noreferrer">
+                                            <div class="carousel-card">
+                                                <img src="grammer-granth.png" alt="Grammer Granth" width="1200"
+                                                    height="500" loading="lazy" decoding="async">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <a href="#" rel="noreferrer">
+                                            <div class="carousel-card">
+                                                <img src="made-easy-2.0.png" alt="Made Easy 2.0" width="1200"
+                                                    height="500" loading="lazy" decoding="async">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div> -->
                                 <button
                                     class="absolute top-1/2 -translate-y-1/2 z-10 inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl text-sm font-medium ring-offset-background transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-primary hover:bg-secondary border border-input h-10 w-10 right-4"
-                                    aria-label="Next slide"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    id="nextBtn" aria-label="Next slide"><svg xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                         class="tabler-icon tabler-icon-arrow-narrow-right h-6 w-6">
                                         <path d="M5 12l14 0"></path>
@@ -332,7 +305,8 @@
 
                                 <a href="be-a-banking-master.html" class="course-link">
                                     <div class="course-card">
-                                        <img src="be-a-banking-master.png" alt="Be a Banking Master">
+                                        <img loading="lazy" decoding="async" src="be-a-banking-master.png"
+                                            alt="Be a Banking Master">
                                         <div class="course-content">
                                             <h3>Be a Banking Master</h3>
                                             <div class="course-price">₹4999/-</div>
@@ -348,7 +322,8 @@
 
                                 <a href="english-recorded.html" class="course-link">
                                     <div class="course-card">
-                                        <img src="english-recorded.png" alt="English Recorded">
+                                        <img loading="lazy" decoding="async" src="english-recorded.png"
+                                            alt="English Recorded">
                                         <div class="course-content">
                                             <h3>English Recorded</h3>
                                             <div class="course-price">₹4999/-</div>
@@ -364,7 +339,8 @@
 
                                 <a href="html page link" class="course-link">
                                     <div class="course-card">
-                                        <img src="foundation-batch.png" alt="Foundation Batch">
+                                        <img loading="lazy" decoding="async" src="foundation-batch.png"
+                                            alt="Foundation Batch">
                                         <div class="course-content">
                                             <h3>Foundation Batch</h3>
                                             <div class="course-price">₹4999/-</div>
@@ -380,7 +356,7 @@
 
                                 <a href="page Link" class="course-link">
                                     <div class="course-card">
-                                        <img src="gaint-2.0.png" alt="Gaint 2.0">
+                                        <img loading="lazy" decoding="async" src="gaint-2.0.png" alt="Gaint 2.0">
                                         <div class="course-content">
                                             <h3>Gaint 2.0</h3>
                                             <div class="course-price">₹4999/-</div>
@@ -396,7 +372,8 @@
 
                                 <a href="page Link" class="course-link">
                                     <div class="course-card">
-                                        <img src="grammer-granth.png" alt="Grammer Granth">
+                                        <img loading="lazy" decoding="async" src="grammer-granth.png"
+                                            alt="Grammer Granth">
                                         <div class="course-content">
                                             <h3>Grammer Granth</h3>
                                             <div class="course-price">₹4999/-</div>
@@ -412,7 +389,8 @@
 
                                 <a href="page Link" class="course-link">
                                     <div class="course-card">
-                                        <img src="made-easy-2.0.png" alt="Made Easy 2.0">
+                                        <img loading="lazy" decoding="async" src="made-easy-2.0.png"
+                                            alt="Made Easy 2.0">
                                         <div class="course-content">
                                             <h3>Made Easy 2.0</h3>
                                             <div class="course-price">₹4999/-</div>
@@ -429,7 +407,8 @@
 
                                 <a href="page Link" class="course-link">
                                     <div class="course-card">
-                                        <img src="perfection 2.0 2026.png" alt="Perfection 2.0">
+                                        <img loading="lazy" decoding="async" src="perfection 2.0 2026.png"
+                                            alt="Perfection 2.0">
                                         <div class="course-content">
                                             <h3>Perfection 2.0 {2026}</h3>
                                             <div class="course-price">₹4999/-</div>
@@ -445,7 +424,8 @@
 
                                 <a href="page Link" class="course-link">
                                     <div class="course-card">
-                                        <img src="perfection 3.0 2026.png" alt="perfection 3.0 {2026}">
+                                        <img loading="lazy" decoding="async" src="perfection 3.0 2026.png"
+                                            alt="perfection 3.0 {2026}">
                                         <div class="course-content">
                                             <h3>Perfection 3.0 {2026}</h3>
                                             <div class="course-price">₹4999/-</div>
@@ -461,7 +441,8 @@
 
                                 <a href="page Link" class="course-link">
                                     <div class="course-card">
-                                        <img src="perfection 4.0 2026.png" alt="perfection 4.0 {2026}">
+                                        <img loading="lazy" decoding="async" src="perfection 4.0 2026.png"
+                                            alt="perfection 4.0 {2026}">
                                         <div class="course-content">
                                             <h3>Perfection 4.0 {2026}</h3>
                                             <div class="course-price">₹4999/-</div>
@@ -477,7 +458,8 @@
 
                                 <a href="page Link" class="course-link">
                                     <div class="course-card">
-                                        <img src="perfection 5.0 2025.png" alt="perfection 5.0 {2025}">
+                                        <img loading="lazy" decoding="async" src="perfection 5.0 2025.png"
+                                            alt="perfection 5.0 {2025}">
                                         <div class="course-content">
                                             <h3>Perfection 5.0 {2025}</h3>
                                             <div class="course-price">₹4999/-</div>
@@ -493,7 +475,8 @@
 
                                 <a href="page Link" class="course-link">
                                     <div class="course-card">
-                                        <img src="perfection 5.0 2026.png" alt="perfection 5.0 {2026}">
+                                        <img loading="lazy" decoding="async" src="perfection 5.0 2026.png"
+                                            alt="perfection 5.0 {2026}">
                                         <div class="course-content">
                                             <h3>Perfection 5.0 {2026}</h3>
                                             <div class="course-price">₹4999/-</div>
@@ -509,7 +492,8 @@
 
                                 <a href="page Link" class="course-link">
                                     <div class="course-card">
-                                        <img src="perfection 9.0 2026.png" alt="English Recorded">
+                                        <img loading="lazy" decoding="async" src="perfection 9.0 2026.png"
+                                            alt="English Recorded">
                                         <div class="course-content">
                                             <h3>Perfection 9.0 {2026}</h3>
                                             <div class="course-price">₹4999/-</div>
@@ -525,7 +509,8 @@
 
                                 <a href="page Link" class="course-link">
                                     <div class="course-card">
-                                        <img src="perfection 2026.png" alt="perfection {2026}">
+                                        <img loading="lazy" decoding="async" src="perfection 2026.png"
+                                            alt="perfection {2026}">
                                         <div class="course-content">
                                             <h3>perfection {2026}</h3>
                                             <div class="course-price">₹4999/-</div>
@@ -541,7 +526,8 @@
 
                                 <a href="page Link" class="course-link">
                                     <div class="course-card">
-                                        <img src="railway nirman batch.png" alt="Railway Nirman Batch">
+                                        <img loading="lazy" decoding="async" src="railway nirman batch.png"
+                                            alt="Railway Nirman Batch">
                                         <div class="course-content">
                                             <h3>Railway Nirman Batch</h3>
                                             <div class="course-price">₹4999/-</div>
@@ -557,7 +543,8 @@
 
                                 <a href="page Link" class="course-link">
                                     <div class="course-card">
-                                        <img src="reasoning master.png" alt="Reasoning Master">
+                                        <img loading="lazy" decoding="async" src="reasoning master.png"
+                                            alt="Reasoning Master">
                                         <div class="course-content">
                                             <h3>Reasoning Master</h3>
                                             <div class="course-price">₹4999/-</div>
@@ -573,7 +560,8 @@
 
                                 <a href="page Link" class="course-link">
                                     <div class="course-card">
-                                        <img src="reasoning warrior batch.png" alt="reasoning warrior Batch">
+                                        <img loading="lazy" decoding="async" src="reasoning warrior batch.png"
+                                            alt="reasoning warrior Batch">
                                         <div class="course-content">
                                             <h3>Reasoning Warrior Batch</h3>
                                             <div class="course-price">₹4999/-</div>
@@ -589,7 +577,8 @@
 
                                 <a href="page Link" class="course-link">
                                     <div class="course-card">
-                                        <img src="safalta batch.png" alt="Safalta Batch">
+                                        <img loading="lazy" decoding="async" src="safalta batch.png"
+                                            alt="Safalta Batch">
                                         <div class="course-content">
                                             <h3>Safalta Batch</h3>
                                             <div class="course-price">₹4999/-</div>
@@ -605,7 +594,8 @@
 
                                 <a href="page Link" class="course-link">
                                     <div class="course-card">
-                                        <img src="safalta-gk-pro.png" alt="Safalta Gk Pro">
+                                        <img loading="lazy" decoding="async" src="safalta-gk-pro.png"
+                                            alt="Safalta Gk Pro">
                                         <div class="course-content">
                                             <h3>Safalta Gk Pro</h3>
                                             <div class="course-price">₹4999/-</div>
@@ -621,7 +611,8 @@
 
                                 <a href="page Link" class="course-link">
                                     <div class="course-card">
-                                        <img src="science-foundation2026-2027.jpg" alt="Science Foundation {2026-2027}">
+                                        <img loading="lazy" decoding="async" src="science-foundation2026-2027.jpg"
+                                            alt="Science Foundation {2026-2027}">
                                         <div class="course-content">
                                             <h3>Science Foundation {2026-2027}</h3>
                                             <div class="course-price">₹4999/-</div>
@@ -637,7 +628,8 @@
 
                                 <a href="page Link" class="course-link">
                                     <div class="course-card">
-                                        <img src="the math hero + udaan di.png" alt="The Math Hero + Udaan Di">
+                                        <img loading="lazy" decoding="async" src="the math hero + udaan di.png"
+                                            alt="The Math Hero + Udaan Di">
                                         <div class="course-content">
                                             <h3>The Math Hero + Udaan Di</h3>
                                             <div class="course-price">₹4999/-</div>
@@ -653,7 +645,7 @@
 
                                 <a href="page Link" class="course-link">
                                     <div class="course-card">
-                                        <img src="vocab batch.png" alt="vocab Batch">
+                                        <img loading="lazy" decoding="async" src="vocab batch.png" alt="vocab Batch">
                                         <div class="course-content">
                                             <h3>vocab Batch</h3>
                                             <div class="course-price">₹4999/-</div>
@@ -798,7 +790,8 @@
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 lg:gap-8 space-y-3 lg:space-y-0">
                             <div class="flex flex-col lg:gap-12 lg:justify-between lg:col-span-2">
                                 <div class="flex flex-col gap-[16px]">
-                                    <img src="sahil-elevate.jpg" width="100" alt="Logo" />
+                                    <img src="sahil-elevate.jpg" width="100" alt="Logo" / loading="lazy"
+                                        decoding="async">
                                     <div class="flex flex-col gap-[8px]">
                                     </div>
                                 </div>
@@ -988,7 +981,8 @@
 
                                 <div class="flex flex-col gap-[8px] w-fit"><a href="" target="_blank"
                                         rel="noopener noreferrer" class="w-fit">
-                                        <img alt="Google Play" src="/google-play.svg" class="bg-white" width="132" />
+                                        <img alt="Google Play" src="/google-play.svg" class="bg-white" width="132" /
+                                            loading="lazy" decoding="async">
                                     </a>
 
 

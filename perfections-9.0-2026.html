@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charSet="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <title>Perfections 9.0 {2026}</title>
+    <link rel="shortcut icon" href="sahil-elevate.jpg" type="image/x-icon">
+    <meta name="title" content="Free Educations" />
+    <meta property="og:title" content="Free Education" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="images" />
+    <meta name="next-head-count" content="18" />
+    <link rel="preload" href="home.css" as="style" />
+    <link rel="stylesheet" href="home.css" data-n-g="" />
+    <link rel="preconnect" href="https://code.jquery.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Slick JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <noscript data-n-css=""></noscript>
+</head>
+
+<body>
+    <style>
+        :root {
+            --primary: 210 4% 9%;
+            --primary-foreground: 0 0% 100%;
+            --color-primary: hsl(var(--primary));
+            --color-primary-lighter: hsl(210 4% 19%);
+            --color-primary-lightest: hsl(210 4% 96%);
+            --color-primary-darker: hsl(210 4% 4%);
+            --color-primary-darkest: hsl(210 4% 4%);
+            --text-color: hsl(var(--primary-foreground));
+            --text-primary-light-tint: hsl(var(--primary-foreground));
+            --text-color-lightest-bg: hsl(var(--secondary-foreground));
+            --ring: var(--primary);
+            --bs-primary: var(--color-primary);
+            --bs-primary-rgb: 22, 23, 24;
+            --bs-link-color: hsl(var(--primary));
+            --bs-link-hover-color: hsl(210 4% 4%);
+        }
+
+        .dark {
+            --primary: 0 0% 100%;
+            --primary-foreground: 0 0% 12%;
+            --color-primary: hsl(var(--primary));
+            --color-primary-lighter: hsl(0 0% 100%);
+            --color-primary-lightest: hsl(0 0% 96%);
+            --color-primary-darker: hsl(0 0% 90%);
+            --color-primary-darkest: hsl(0 0% 70%);
+            --text-color: hsl(var(--primary-foreground));
+            --text-primary-light-tint: hsl(var(--primary-foreground));
+            --text-color-lightest-bg: hsl(var(--secondary-foreground));
+            --ring: var(--primary);
+            --bs-primary: var(--color-primary);
+            --bs-primary-rgb: 255, 255, 255;
+            --bs-link-color: hsl(var(--primary));
+            --bs-link-hover-color: hsl(0 0% 90%);
+        }
+
+        .btn-primary {
+            --bs-btn-color: hsl(var(--primary-foreground));
+            --bs-btn-bg: var(--color-primary);
+            --bs-btn-border-color: var(--color-primary);
+            --bs-btn-hover-color: hsl(var(--primary-foreground));
+            --bs-btn-hover-bg: var(--color-primary-darker);
+            --bs-btn-hover-border-color: var(--color-primary-darker);
+            --bs-btn-active-color: hsl(var(--primary-foreground));
+            --bs-btn-active-bg: var(--color-primary-darker);
+            --bs-btn-active-border-color: var(--color-primary-darker);
+            --bs-btn-disabled-color: #fff;
+            --bs-btn-disabled-bg: var(--color-primary-lighter);
+            --bs-btn-disabled-border-color: var(--color-primary-lighter);
+        }
+
+        .btn-outline-primary {
+            --bs-btn-color: hsl(var(--foreground));
+            --bs-btn-border-color: var(--color-primary);
+            --bs-btn-hover-color: hsl(var(--primary-foreground));
+            --bs-btn-hover-bg: var(--color-primary);
+            --bs-btn-hover-border-color: var(--color-primary);
+            --bs-btn-active-color: hsl(var(--primary-foreground));
+            --bs-btn-active-bg: var(--color-primary);
+            --bs-btn-active-border-color: var(--color-primary-darker);
+            --bs-btn-disabled-color: var(--color-primary);
+            --bs-btn-disabled-bg: transparent;
+            --bs-btn-disabled-border-color: var(--color-primary);
+        }
+
+        .btn-primary-light {
+            --bs-btn-color: hsl(var(--secondary-foreground));
+            --bs-btn-bg: hsl(var(--secondary));
+            --bs-btn-border-color: hsl(var(--secondary));
+            --bs-btn-hover-color: hsl(var(--secondary-foreground));
+            --bs-btn-hover-bg: hsl(var(--secondary));
+            --bs-btn-hover-border-color: hsl(var(--secondary));
+            --bs-btn-active-bg: var(--color-primary-darker);
+            --bs-btn-active-border-color: var(--color-primary-darker);
+            --bs-btn-disabled-bg: hsl(var(--secondary));
+            --bs-btn-disabled-border-color: hsl(var(--secondary));
+        }
+
+        .alert-primary {
+            --bs-alert-color: hsl(var(--primary) / 0.7);
+            --bs-alert-bg: hsl(var(--secondary));
+            --bs-alert-border-color: hsl(var(--border));
+        }
+    </style>
+
+    <!-- ========== Main Coad Started ========== -->
+
+    <div class="relative">
+
+        <header id="header" class="sticky top-0 p-4 z-50 w-full pointer-events-none">
+
+            <div
+                class="pointer-events-auto mx-auto flex w-full max-w-7xl items-center justify-between gap-2 rounded-xl bg-secondary px-4 py-2.5 shadow-[0_2px_16px_rgba(169,167,178,0.66)] dark:shadow-[0_2px_16px_rgba(18,18,18,0.25)] dark:border dark:border-secondary backdrop-blur-md sm:gap-4 sm:px-3 md:h-16 md:gap-4 md:px-4 min-h-[52px] md:min-h-[64px]">
+                <div class="flex items-center gap-3">
+                    <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-medium ring-offset-background transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 text-foreground hover:bg-accent hover:text-accent-foreground size-10 shrink-0 lg:hidden"
+                        id="navbarToggler" aria-label="Open menu">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                            class="svg-inline--fa fa-bars fa-lg " role="img" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 448 512">
+                            <path fill="currentColor"
+                                d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z">
+                            </path>
+                        </svg>
+                    </button>
+
+
+                    <!-- ========== Header ========== -->
+
+
+                    <div class="flex items-center gap-4 lg:gap-6"><a id="headerLogo" href="/"
+                            class="absolute left-1/2 top-1/2 z-0 shrink-0 -translate-x-1/2 -translate-y-1/2 lg:static lg:translate-x-0 lg:translate-y-0">
+                            <img height="100" src="sahil-elevate.jpg"
+                                class="h-9 max-w-24 w-auto object-contain rounded-sm sm:max-w-[120px] md:h-10 lg:max-w-none"
+                                alt="Logo" / loading="lazy" decoding="async">
+                        </a>
+
+
+
+                        <div class="hidden min-w-0 gap-4 lg:gap-6 items-center lg:flex">
+                            <a class="flex items-center transition-all whitespace-nowrap no-underline text-foreground text-sm"
+                                href="home.html">Home</a>
+                            <a class="flex items-center transition-all whitespace-nowrap no-underline text-foreground text-sm opacity-80"
+                                href="paid-batch.html">Paid Courses</a>
+                            <a class="flex items-center transition-all whitespace-nowrap no-underline text-foreground text-sm opacity-80"
+                                href="https://www.youtube.com/@ridelikeme">Youtube Courses</a>
+                            <a class="flex items-center transition-all whitespace-nowrap no-underline text-foreground text-sm opacity-80"
+                                href="test-series.html">Test Series</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <form class="max-lg:hidden flex lg:max-w-xs w-full">
+                    <div class="relative w-full">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="magnifying-glass"
+                            class="svg-inline--fa fa-magnifying-glass pointer-events-none absolute top-1/2 left-2 size-6 -translate-y-1/2 text-foreground"
+                            role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+
+                            <path fill="currentColor"
+                                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z">
+                            </path>
+                        </svg>
+
+                        <input type="search" placeholder="Free Educations" aria-label="search input"
+                            class="w-full rounded-full border-0 bg-muted dark:bg-accent h-9 py-1 px-3 pl-10 text-sm text-foreground placeholder:text-muted-foreground focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none"
+                            value="" />
+                    </div>
+                </form>
+
+
+                <div class="relative z-10 flex items-center gap-2">
+                    <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-medium ring-offset-background transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-border bg-background text-foreground hover:bg-accent hover:text-accent-foreground size-10 relative shrink-0"
+                        disabled="" aria-hidden="true">
+                        <span class="size-4">
+                        </span>
+                    </button>
+
+
+                    <div class="overflow-hidden p-3 rounded-full bg-primary text-primary-foreground aspect-square flex items-center justify-center"
+                        type="button" id="radix-:Ruad6:" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+                        <span class="font-medium">
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <div class="bg-background text-foreground">
+            <div class="mx-auto flex flex-col min-h-screen antialiased">
+                <div class="flex flex-col">
+                    <h1 class="sr-only">Free Educations</h1>
+                    <div class="pb-8 pt-8 flex flex-col gap-6 md:gap-8 lg:gap-12 ">
+                        <div class="slider-container relative overflow-hidden">
+                            <div class="slick-slider slick-initialized" dir="ltr">
+
+                                <button
+                                    class="absolute top-1/2 -translate-y-1/2 z-10 inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl text-sm font-medium ring-offset-background transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-primary hover:bg-secondary border border-input h-10 w-10 right-4"
+                                    id="nextBtn" aria-label="Next slide">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- ========== Browser ========== -->
+
+
+
+                    <!-- ==================== COURSE VIDEO SECTION ==================== -->
+
+                    <section class="video-courses-section">
+
+                        <div class="video-courses-container">
+
+                            <!-- Section Heading -->
+
+                            <div class="section-heading">
+                                <h2>Our Courses</h2>
+                                <p>Learn from our latest recorded courses</p>
+                            </div>
+
+
+                            <!-- ================= COURSE GRID ================= -->
+
+                            <div class="video-course-grid">
+
+
+                                <!-- ===== Course 1 ===== -->
+                                <div class="video-course-card">
+
+                                    <div class="video-wrapper">
+
+                                        <iframe src="https://www.youtube.com/embed/MMzMNbhHIoE?rel=0&playsinline=1"
+                                            title="YouTube video player" loading="lazy"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                                        </iframe>
+                                    </div>
+                                    <div class="video-course-content">
+                                        <h3>Home Introductory Session</h3>
+                                        <p>Perfections 9.0 {2026} Home Introductory SessionBy Nimisha Bansal
+                                            Latest
+                                            Batch 2026</p>
+                                    </div>
+
+                                </div>
+
+
+                                <!-- ===== Course 2 ===== -->
+
+                                <div class="video-course-card">
+                                    <div class="video-wrapper">
+                                        <iframe src="https://www.youtube.com/embed/rt_OsCUPTjs?rel=0&playsinline=1"
+                                            title="YouTube video player" loading="lazy"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                                        </iframe>
+                                    </div>
+                                    <div class="video-course-content">
+                                        <h3>Basic Concepts of Sentence Rearrangement/Parajumbles</h3>
+                                        <p>Perfections 9.0 {2026} Home Introductory SessionBy Nimisha Bansal
+                                            Latest
+                                            Batch 2026</p>
+                                    </div>
+                                </div>
+
+
+                                <!-- ===== Course 3 ===== -->
+
+                                <div class="video-course-card">
+                                    <div class="video-wrapper">
+                                        <iframe src="https://www.youtube.com/embed/Tqcs7Pcl0P0?rel=0&playsinline=1"
+                                            title="YouTube video player" loading="lazy"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                                        </iframe>
+                                    </div>
+                                    <div class="video-course-content">
+                                        <h3>Reading Comprehension & Skimming Class = 1</h3>
+                                        <p>Perfections 9.0 {2026} Home Introductory SessionBy Nimisha Bansal
+                                            Latest
+                                            Batch 2026</p>
+                                    </div>
+                                </div>
+
+
+                                <!-- ===== Course 4 ===== -->
+                                <div class="video-course-card">
+
+                                    <div class="video-wrapper">
+
+                                        <iframe src="https://www.youtube.com/embed/L2hobJ8sbko?rel=0&playsinline=1"
+                                            title="YouTube video player" loading="lazy"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                                        </iframe>
+                                    </div>
+                                    <div class="video-course-content">
+                                        <h3>Reading Comprehension & Skimming Class = 2</h3>
+                                        <p>Perfections 9.0 {2026} Home Introductory SessionBy Nimisha Bansal
+                                            Latest
+                                            Batch 2026</p>
+                                    </div>
+                                </div>
+
+
+                                <!-- ===== Classes Add krni hoto  ===== -->
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>

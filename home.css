@@ -45982,6 +45982,20 @@ svg.svg-inline--fa:not(:root) {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* Home.css */
+
+
 /* ================================
    FEATURED COURSES
 ================================ */
@@ -45998,7 +46012,10 @@ svg.svg-inline--fa:not(:root) {
     margin: auto;
 }
 
-/* Header */
+
+/* ================================
+   HEADER
+================================ */
 
 .section-header {
     display: flex;
@@ -46014,7 +46031,10 @@ svg.svg-inline--fa:not(:root) {
     color: #111111;
 }
 
-/* Slider buttons */
+
+/* ================================
+   SLIDER BUTTONS
+================================ */
 
 .slider-buttons {
     display: flex;
@@ -46037,18 +46057,17 @@ svg.svg-inline--fa:not(:root) {
     background: #f3f3f3;
 }
 
+
 /* ================================
    COURSE GRID
 ================================ */
 
 .courses-grid {
     display: grid;
-
-    /* EXACTLY 4 COURSES IN ONE ROW */
     grid-template-columns: repeat(4, minmax(0, 1fr));
-
     gap: 20px;
 }
+
 
 /* ================================
    COURSE CARD
@@ -46066,14 +46085,19 @@ svg.svg-inline--fa:not(:root) {
     transition:
         transform 0.25s ease,
         box-shadow 0.25s ease;
+
+    contain: layout paint;
 }
 
 .course-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-4px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.14);
 }
 
-/* Course Image */
+
+/* ================================
+   COURSE IMAGE
+================================ */
 
 .course-card>img {
     display: block;
@@ -46084,27 +46108,59 @@ svg.svg-inline--fa:not(:root) {
     object-fit: cover;
 
     border-radius: 12px;
+    background: #f5f5f5;
+
+    transform: translateZ(0);
 }
 
-/* Content */
+
+/* ================================
+   COURSE CONTENT
+================================ */
 
 .course-content {
     padding: 8px 20px 20px;
 }
 
-/* Course title */
+
+/* ================================
+   COURSE TITLE
+================================ */
 
 .course-content h3 {
     min-height: 40px;
+    font-size: 24px;
+    line-height: 1.25;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
+
+
+/* ============================================================
+   SMALL TITLE
+   ONLY FOR:
+   - Grammer Granth
+   - Made Easy 2.0
+============================================================ */
+
+.small-course-title {
+    font-size: 22px !important;
+    line-height: 1.25;
+}
+
+
+/* ================================
+   COURSE PRICE
+================================ */
 
 .course-price {
     margin-top: 0;
 }
 
 
-
-/* Horizontal line + footer */
+/* ================================
+   COURSE FOOTER
+================================ */
 
 .course-footer {
     display: flex;
@@ -46120,7 +46176,10 @@ svg.svg-inline--fa:not(:root) {
     font-size: 17px;
 }
 
-/* Arrow */
+
+/* ================================
+   ARROW BUTTON
+================================ */
 
 .arrow-btn {
     width: 36px;
@@ -46149,143 +46208,9 @@ svg.svg-inline--fa:not(:root) {
 
 
 /* ================================
-   RESPONSIVE
+   MAIN CAROUSEL
 ================================ */
 
-/* Laptop / smaller desktop */
-
-@media (max-width: 1200px) {
-
-    .courses-container {
-        width: 94%;
-    }
-
-    .courses-grid {
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-        gap: 15px;
-    }
-
-    .course-card>img {
-        height: 180px;
-    }
-
-    .course-content {
-        padding: 8px 15px 18px;
-    }
-
-    .course-content h3 {
-        font-size: 18px;
-    }
-
-    .course-price {
-        font-size: 27px;
-    }
-}
-
-
-/* Tablet */
-
-@media (max-width: 900px) {
-
-    .courses-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .section-header h2 {
-        font-size: 36px;
-    }
-
-    .course-card>img {
-        height: 210px;
-    }
-}
-
-
-/* Mobile */
-
-@media (max-width: 600px) {
-
-    .courses-section {
-        padding: 40px 0;
-    }
-
-    .courses-container {
-        width: 92%;
-    }
-
-    .section-header {
-        margin-bottom: 20px;
-    }
-
-    .section-header h2 {
-        font-size: 30px;
-    }
-
-    .slider-buttons button {
-        width: 42px;
-        height: 42px;
-        font-size: 18px;
-    }
-
-    .courses-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-
-    .course-card>img {
-        height: auto;
-        aspect-ratio: 16 / 9;
-    }
-
-    .course-content h3 {
-        min-height: auto;
-        font-size: 20px;
-    }
-}
-
-.course-link {
-    text-decoration: none;
-    color: inherit;
-    display: block;
-}
-
-
-/* Animation ko bina ruke smooth chalane ke liye CSS */
-.slick-slider .slick-track {
-    display: flex !important;
-    transition-timing-function: linear !important;
-}
-
-/* ============================================================
-   PERFORMANCE + SMOOTH CAROUSEL OPTIMIZATION
-   ============================================================ */
-html {
-    scroll-behavior: smooth;
-}
-
-img {
-    max-width: 100%;
-}
-
-.course-card {
-    contain: layout paint;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.10);
-    transition: transform 180ms ease, box-shadow 180ms ease;
-}
-
-.course-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.14);
-}
-
-.course-card>img {
-    display: block;
-    background: #f5f5f5;
-    transform: translateZ(0);
-}
-
-/* Do not manually create slick-list/slick-track in HTML.
-   Slick creates them itself. */
 .my-main-carousel {
     width: 100%;
     overflow: hidden;
@@ -46332,7 +46257,105 @@ img {
     height: 100%;
 }
 
+
+/* ================================
+   SLICK SMOOTH ANIMATION
+================================ */
+
+.slick-slider .slick-track {
+    display: flex !important;
+    transition-timing-function: linear !important;
+}
+
+
+/* ================================
+   GENERAL IMAGE
+================================ */
+
+img {
+    max-width: 100%;
+}
+
+
+/* ================================
+   COURSE LINK
+================================ */
+
+.course-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+
+/* ================================
+   RESPONSIVE
+================================ */
+
+
+/* ================================
+   LAPTOP / SMALL DESKTOP
+================================ */
+
+@media (max-width: 1200px) {
+
+    .courses-container {
+        width: 94%;
+    }
+
+    .courses-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 15px;
+    }
+
+    .course-card>img {
+        height: 180px;
+    }
+
+    .course-content {
+        padding: 8px 15px 18px;
+    }
+
+    .course-content h3 {
+        font-size: 18px;
+    }
+
+    .small-course-title {
+        font-size: 17px !important;
+    }
+
+    .course-price {
+        font-size: 27px;
+    }
+}
+
+
+/* ================================
+   TABLET
+================================ */
+
 @media (max-width: 900px) {
+
+    .courses-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .section-header h2 {
+        font-size: 36px;
+    }
+
+    .course-card>img {
+        height: 210px;
+    }
+
+    .course-content h3 {
+        font-size: 22px;
+    }
+
+    .small-course-title {
+        font-size: 20px !important;
+    }
+
     .my-main-carousel .carousel-slide {
         padding: 0 6px;
     }
@@ -46342,13 +46365,66 @@ img {
     }
 }
 
+
+/* ================================
+   MOBILE
+================================ */
+
 @media (max-width: 600px) {
+
+    .courses-section {
+        padding: 40px 0;
+    }
+
+    .courses-container {
+        width: 92%;
+    }
+
+    .section-header {
+        margin-bottom: 20px;
+    }
+
+    .section-header h2 {
+        font-size: 30px;
+    }
+
+    .slider-buttons button {
+        width: 42px;
+        height: 42px;
+        font-size: 18px;
+    }
+
+    .courses-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .course-card>img {
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+
+    .course-content h3 {
+        min-height: auto;
+        font-size: 20px;
+    }
+
+    .small-course-title {
+        font-size: 19px !important;
+    }
+
     .my-main-carousel .carousel-card img {
         aspect-ratio: 16 / 7;
     }
 }
 
+
+/* ================================
+   REDUCED MOTION
+================================ */
+
 @media (prefers-reduced-motion: reduce) {
+
     html {
         scroll-behavior: auto;
     }
@@ -46362,8 +46438,6 @@ img {
         scroll-behavior: auto !important;
     }
 }
-
-
 
 
 
@@ -46420,9 +46494,7 @@ img {
 
 .video-course-grid {
     display: grid;
-
     grid-template-columns: repeat(4, minmax(0, 1fr));
-
     gap: 26px;
 }
 
@@ -46434,26 +46506,19 @@ img {
 .video-course-card {
     width: 100%;
     background: #ffffff;
-
     border: 1px solid #e5e7eb;
-
     border-radius: 22px;
-
     overflow: hidden;
-
     box-shadow:
         0 5px 20px rgba(0, 0, 0, 0.08);
-
     transition:
         transform 0.3s ease,
         box-shadow 0.3s ease;
-
     box-sizing: border-box;
 }
 
 .video-course-card:hover {
     transform: translateY(-6px);
-
     box-shadow:
         0 15px 35px rgba(0, 0, 0, 0.14);
 }
@@ -46465,20 +46530,15 @@ img {
 
 .video-wrapper {
     width: 100%;
-
     aspect-ratio: 16 / 9;
-
     background: #000000;
-
     overflow: hidden;
 }
 
 .video-wrapper iframe {
     width: 100%;
     height: 100%;
-
     display: block;
-
     border: none;
 }
 
@@ -46493,12 +46553,9 @@ img {
 
 .video-course-content h3 {
     margin: 0 0 22px;
-
     font-size: 15px;
     line-height: 1.25;
-
     font-weight: 700;
-
     color: #111827;
 }
 
@@ -46509,11 +46566,8 @@ img {
 
 .video-course-price {
     font-size: 18px;
-
     color: #374151;
-
     padding-bottom: 20px;
-
     border-bottom: 1px solid #e5e7eb;
 }
 
@@ -46524,18 +46578,14 @@ img {
 
 .video-course-footer {
     display: flex;
-
     align-items: center;
     justify-content: space-between;
-
     padding-top: 20px;
 }
 
 .video-course-footer span {
     font-size: 17px;
-
     color: #6b7280;
-
     font-weight: 500;
 }
 
@@ -46547,22 +46597,14 @@ img {
 .video-arrow {
     width: 46px;
     height: 46px;
-
     display: flex;
-
     align-items: center;
     justify-content: center;
-
     border-radius: 50%;
-
     background: #222222;
-
     color: #ffffff;
-
     text-decoration: none;
-
     font-size: 22px;
-
     transition:
         background 0.25s ease,
         transform 0.25s ease;
@@ -46570,7 +46612,6 @@ img {
 
 .video-arrow:hover {
     background: #000000;
-
     transform: rotate(8deg) scale(1.05);
 }
 

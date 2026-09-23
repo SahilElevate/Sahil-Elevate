@@ -1,10 +1,9 @@
 :root {
-    --bg-color: #121417;
     --lamp-matte: #e8e2d9;
-    --lamp-shade: #f5f0e6;
-    --lamp-base: #d1ccc2;
+    --lamp-shade: white;
+    --lamp-base: white;
     --glow-color: rgba(255, 214, 110, 0.3);
-    --accent-color: #d4a373;
+    --accent-color: white;
     --on: 0;
     --transition: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -17,12 +16,15 @@
 
 body {
     min-height: 100vh;
-    display: grid;
-    place-items: center;
-    background: var(--bg-color);
-    font-family: "Inter", system-ui, -apple-system, sans-serif;
-    overflow: hidden;
-    transition: background var(--transition);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url(login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
 }
 
 body::before {
@@ -125,7 +127,7 @@ body::before {
 }
 
 .login-form h2 {
-    color: #fff;
+    color: black;
     text-align: center;
     margin-bottom: 1.5rem;
     font-weight: 500;
@@ -138,7 +140,7 @@ body::before {
 
 .form-group label {
     display: block;
-    color: #999;
+    color: black;
     margin-bottom: 0.5rem;
     margin-left: 5px;
     font-size: 0.85rem;
@@ -150,7 +152,7 @@ body::before {
     border: 1px solid transparent;
     border-radius: 15px;
     outline: none;
-    color: #fff;
+    color: black;
     background: rgba(255, 255, 255, 0.07);
     transition: 0.3s;
     font-size: 1rem;
@@ -172,11 +174,10 @@ body::before {
     font-weight: 600;
     color: #121417;
     background: linear-gradient(135deg,
-            #bf953f,
-            #fcf6ba,
-            #b38728,
-            #fcf6ba,
-            #aa771c);
+            #66BB6A,
+            #1B5E20,
+            #66BB6A,
+            #1B5E20);
     transition: 0.3s;
 }
 
@@ -187,4 +188,3 @@ body::before {
 
 
 /* batch complete or processing */
-
